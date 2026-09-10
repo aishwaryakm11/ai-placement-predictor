@@ -9,3 +9,7 @@ pydantic
 python-multipart
 pytest
 httpx
+# Auth & Supabase
+supabase
+python-jose[cryptography]
+python-dotenv

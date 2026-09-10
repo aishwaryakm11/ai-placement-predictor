@@ -21,7 +21,7 @@ from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
 
 from config import CORS_ORIGINS
-from routers import predict, tpo, roadmap
+from routers import predict, tpo, roadmap, auth, profile
 
 # ─── App instance ─────────────────────────────────────────────────────────────
 
@@ -30,9 +30,12 @@ app = FastAPI(
     description=(
         "Institutional Career Readiness & Upskilling Engine. "
         "Predicts student placement probability using a trained Random Forest model, "
-        "explains predictions with SHAP, and generates phased upskilling roadmaps."
+        "explains predictions with SHAP, and generates phased upskilling roadmaps. "
+        "Supports Student & TPO login via Supabase Auth. "
+        "Students build their profile step-by-step (Academic → Technical → Experience → "
+        "Aptitude → Target Role) before triggering the ML analysis."
     ),
-    version="1.0.0",
+    version="2.0.0",
     docs_url="/docs",
     redoc_url="/redoc",
 )
@@ -43,7 +46,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=CORS_ORIGINS,
     allow_credentials=True,
-    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_methods=["GET", "POST", "PUT", "OPTIONS"],
     allow_headers=["Content-Type", "Authorization", "Accept"],
 )
 
@@ -71,6 +74,8 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
 
 # ─── Routers ──────────────────────────────────────────────────────────────────
 
+app.include_router(auth.router, prefix="/api/auth", tags=["Authentication"])
+app.include_router(profile.router, prefix="/api/profile", tags=["Student Profile"])
 app.include_router(predict.router, prefix="/api", tags=["Predict"])
 app.include_router(tpo.router, prefix="/api/tpo", tags=["TPO Analytics"])
 app.include_router(roadmap.router, prefix="/api", tags=["Roadmap"])
