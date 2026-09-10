@@ -5,9 +5,10 @@ export default function SkillDeficitHeatmap({ matrix }) {
   const [hoveredCell, setHoveredCell] = useState(null);
 
   const skills = matrix?.skills || ['SQL', 'Python', 'AWS', 'DSA'];
+  const departments = matrix?.departments || ['CSE', 'ISE', 'ECE', 'MECH', 'CIVIL'];
 
   // Normalize departments and deficit lookup to seamlessly support both 2D matrix and object shapes
-  const normalizedRows = (matrix?.departments || ['CSE', 'ISE', 'ECE', 'MECH', 'CIVIL']).map((deptItem, deptIdx) => {
+  const normalizedRows = departments.map((deptItem, deptIdx) => {
     const deptName = typeof deptItem === 'string' ? deptItem : deptItem.department;
     return {
       department: deptName,

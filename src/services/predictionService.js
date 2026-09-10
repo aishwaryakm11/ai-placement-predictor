@@ -32,15 +32,19 @@ export async function predictPlacement(profileData) {
     const raw = response.data;
     const data = raw && raw.data !== undefined ? raw.data : raw;
 
-    // Normalize shap_factors to guarantee both impact_pct & contribution exist
+    // Normalize shap_factors to guarantee impact_pct, contribution, and shap_score exist
     const normalizedFactors = (data.shap_factors || []).map((f) => {
-      const impact = Number(f.impact_pct ?? f.contribution ?? 0);
+      const raw = Number(f.shap_score ?? f.contribution ?? f.impact_pct ?? 0);
+      const isPositive = f.direction ? f.direction === 'positive' : raw >= 0;
+      const signed = isPositive ? Math.abs(raw) : -Math.abs(raw);
+      const absVal = Math.abs(raw);
       return {
         feature: f.feature,
-        impact_pct: impact,
-        contribution: impact,
-        direction: f.direction || (impact >= 0 ? 'positive' : 'negative'),
-        readable_string: f.readable_string || `${impact >= 0 ? '+' : ''}${impact}% impact`,
+        impact_pct: absVal,
+        contribution: signed,
+        shap_score: signed,
+        direction: isPositive ? 'positive' : 'negative',
+        readable_string: f.readable_string || `${isPositive ? '+' : '-'}${absVal}% impact`,
       };
     });
 

@@ -15,7 +15,7 @@ _backend_dir = Path(__file__).resolve().parent
 if str(_backend_dir) not in sys.path:
     sys.path.insert(0, str(_backend_dir))
 
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
@@ -72,6 +72,18 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         },
     )
 
+@app.exception_handler(HTTPException)
+async def http_exception_handler(request: Request, exc: HTTPException):
+    """Return HTTP exceptions in the standard response envelope."""
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={
+            "success": False,
+            "data": None,
+            "error": str(exc.detail),
+        },
+    )
+
 # ─── Routers ──────────────────────────────────────────────────────────────────
 
 app.include_router(auth.router, prefix="/api/auth", tags=["Authentication"])
@@ -83,6 +95,12 @@ app.include_router(roadmap.router, prefix="/api", tags=["Roadmap"])
 # ─── Health check ─────────────────────────────────────────────────────────────
 
 @app.get("/", tags=["Health"])
+@app.get("/health", tags=["Health"])
 async def health_check():
-    """Returns API health status."""
-    return {"status": "ok"}
+    """Returns API health status adhering to standard JSON envelope."""
+    return {
+        "success": True,
+        "data": {"status": "ok"},
+        "status": "ok",
+        "error": None,
+    }

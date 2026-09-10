@@ -18,16 +18,20 @@ export default function FactorContributionChart() {
 
   // Prepare data for horizontal bar chart
   const chartData = factors.map((f) => {
-    const contribution = Number(f.impact_pct ?? f.contribution ?? 0);
-    const isPositive = f.direction ? f.direction === 'positive' : contribution >= 0;
+    const rawVal = Number(f.shap_score ?? f.contribution ?? f.impact_pct ?? 0);
+    const isPositive = f.direction ? f.direction === 'positive' : rawVal >= 0;
+    const signedContribution = isPositive ? Math.abs(rawVal) : -Math.abs(rawVal);
+    const absVal = Math.abs(rawVal);
     return {
       name: (f.feature || 'Factor')
         .replace(/_/g, ' ')
         .replace(/\b\w/g, (c) => c.toUpperCase()),
       rawFeature: f.feature,
-      contribution,
+      contribution: signedContribution,
+      impact_pct: absVal,
+      shap_score: signedContribution,
       isPositive,
-      readable_string: f.readable_string || `${contribution > 0 ? '+' : ''}${contribution}% contribution`,
+      readable_string: f.readable_string || `${isPositive ? '+' : '-'}${absVal}% contribution`,
     };
   });
 
