@@ -47,10 +47,17 @@ READY_THRESHOLD: float = 75.0
 NEAR_READY_THRESHOLD: float = 60.0
 
 # CORS
-CORS_ORIGINS = ["http://localhost:5173"]
+CORS_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://localhost:8000",
+    "http://127.0.0.1:8000",
+]
 
 # Valid departments and roles
-VALID_DEPARTMENTS = ["CSE", "ISE", "ECE", "MECH", "CIVIL"]
+VALID_DEPARTMENTS = ["CSE", "ISE", "ECE", "AIML", "MECH", "CIVIL", "EEE"]
 VALID_ROLES = [
     "Full-Stack Developer",
     "Data Analyst",

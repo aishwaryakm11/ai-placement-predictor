@@ -1,11 +1,27 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Grid, HelpCircle, Info, Sparkles, AlertCircle } from 'lucide-react';
 
 export default function SkillDeficitHeatmap({ matrix }) {
   const [hoveredCell, setHoveredCell] = useState(null);
 
-  const skills = matrix?.skills || ['DSA', 'Java', 'SQL', 'Python', 'Cloud/DevOps', 'System Design'];
-  const departments = matrix?.departments || [];
+  const skills = matrix?.skills || ['SQL', 'Python', 'AWS', 'DSA'];
+
+  // Normalize departments and deficit lookup to seamlessly support both 2D matrix and object shapes
+  const normalizedRows = (matrix?.departments || ['CSE', 'ISE', 'ECE', 'MECH', 'CIVIL']).map((deptItem, deptIdx) => {
+    const deptName = typeof deptItem === 'string' ? deptItem : deptItem.department;
+    return {
+      department: deptName,
+      getDeficit: (skill, skillIdx) => {
+        if (Array.isArray(matrix?.matrix) && matrix.matrix[deptIdx]) {
+          return Number(matrix.matrix[deptIdx][skillIdx] ?? 0);
+        }
+        if (typeof deptItem === 'object' && deptItem.deficits) {
+          return Number(deptItem.deficits[skill] ?? 0);
+        }
+        return 0;
+      },
+    };
+  });
 
   // Determine cell color based on deficit percentage
   const getCellStyles = (deficit) => {
@@ -91,20 +107,20 @@ export default function SkillDeficitHeatmap({ matrix }) {
             </tr>
           </thead>
           <tbody>
-            {departments.map((deptRow) => (
-              <tr key={deptRow.department}>
+            {normalizedRows.map((row) => (
+              <tr key={row.department}>
                 <td className="p-2.5 text-left font-extrabold text-cyan-300 font-mono text-xs bg-slate-900/60 rounded-xl border border-slate-800">
-                  {deptRow.department}
+                  {row.department}
                 </td>
-                {skills.map((skill) => {
-                  const deficit = deptRow.deficits?.[skill] ?? 0;
+                {skills.map((skill, sIdx) => {
+                  const deficit = row.getDeficit(skill, sIdx);
                   const style = getCellStyles(deficit);
                   return (
                     <td
                       key={skill}
                       onMouseEnter={() =>
                         setHoveredCell({
-                          dept: deptRow.department,
+                          dept: row.department,
                           skill,
                           deficit,
                           category: style.category,

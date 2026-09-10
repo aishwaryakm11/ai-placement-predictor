@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { useTpoAnalytics } from '../hooks/useTpoAnalytics';
 import DepartmentReadinessCards from '../components/tpo/DepartmentReadinessCards';
 import CohortVulnerabilityTable from '../components/tpo/CohortVulnerabilityTable';
@@ -11,8 +11,19 @@ import { getReadinessStatus } from '../utils/readiness';
 export default function TpoDashboard() {
   const { data: analytics, isLoading, error, refetch, isFetching } = useTpoAnalytics();
 
-  const overallReadiness = analytics?.overall_readiness_percentage ?? 78.4;
+  const overallReadiness = Number(analytics?.overall_readiness_pct ?? analytics?.overall_readiness_percentage ?? 78.4);
   const readiness = getReadinessStatus(overallReadiness);
+
+  const departmentData = analytics?.department_breakdown || analytics?.departmental_readiness || [];
+  const vulnerableCohort = analytics?.vulnerable_students || analytics?.vulnerable_cohort || [];
+
+  const totalStudents = analytics?.total_students ?? (
+    departmentData.length > 0
+      ? departmentData.reduce((acc, d) => acc + (d.student_count ?? d.total_students ?? 0), 0)
+      : 450
+  );
+  const readyCount = analytics?.ready_students_count ?? Math.round(totalStudents * (overallReadiness / 100));
+  const vulnerableCount = analytics?.vulnerable_count ?? (vulnerableCohort.length || 70);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
@@ -65,7 +76,7 @@ export default function TpoDashboard() {
             </div>
           </div>
           <div className="text-2xl font-extrabold font-mono text-white mt-2">
-            {analytics?.total_students ?? 450}
+            {totalStudents}
           </div>
           <p className="text-[11px] text-slate-400 mt-1 font-sans">
             Active final & pre-final year students registered
@@ -109,7 +120,7 @@ export default function TpoDashboard() {
             </div>
           </div>
           <div className="text-2xl font-extrabold font-mono text-emerald-400 mt-2">
-            {analytics?.ready_students_count ?? 245}
+            {readyCount}
           </div>
           <p className="text-[11px] text-emerald-400/80 mt-1 font-sans">
             Cleared core technical & interview benchmarks
@@ -125,7 +136,7 @@ export default function TpoDashboard() {
             </div>
           </div>
           <div className="text-2xl font-extrabold font-mono text-rose-400 mt-2">
-            {analytics?.vulnerable_count ?? 70}
+            {vulnerableCount}
           </div>
           <p className="text-[11px] text-rose-400/80 mt-1 font-sans">
             Requires immediate remedial bootcamp
@@ -139,12 +150,12 @@ export default function TpoDashboard() {
         <>
           {/* 1. Department Readiness Cards & Trend Charts */}
           <DepartmentReadinessCards
-            data={analytics?.departmental_readiness}
+            data={departmentData}
             trends={analytics?.placement_trends}
           />
 
           {/* 2. Cohort Vulnerability Table with <60% Filter */}
-          <CohortVulnerabilityTable cohort={analytics?.vulnerable_cohort} />
+          <CohortVulnerabilityTable cohort={vulnerableCohort} />
 
           {/* 3. Skill Deficit Heatmap (Department x Skill) */}
           <SkillDeficitHeatmap matrix={analytics?.skill_deficit_matrix} />

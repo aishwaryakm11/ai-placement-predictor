@@ -1,15 +1,20 @@
-﻿import React from 'react';
+import React from 'react';
 import { useStudent } from '../../context/StudentContext';
 import { Compass, CheckCircle, Target, ArrowRight } from 'lucide-react';
 
 export default function PredictedRolesCard() {
   const { prediction, profile, updateProfile } = useStudent();
-  const roles = prediction?.predicted_roles || [
-    { role: 'Full-Stack Developer', confidence: 42.0 },
-    { role: 'Data Analyst', confidence: 28.0 },
-    { role: 'Cloud/DevOps Engineer', confidence: 18.0 },
-    { role: 'QA Specialist', confidence: 12.0 },
-  ];
+  const roles = prediction?.target_role_scores && typeof prediction.target_role_scores === 'object' && !Array.isArray(prediction.target_role_scores)
+    ? Object.entries(prediction.target_role_scores).map(([role, confidence]) => ({
+        role,
+        confidence: Math.round(Number(confidence) * 10) / 10,
+      }))
+    : prediction?.predicted_roles || [
+        { role: 'Full-Stack Developer', confidence: 42.0 },
+        { role: 'Data Analyst', confidence: 28.0 },
+        { role: 'Cloud/DevOps Engineer', confidence: 18.0 },
+        { role: 'QA Specialist', confidence: 12.0 },
+      ];
 
   const handleSelectRole = (roleName) => {
     updateProfile({ target_role: roleName });

@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { useStudent } from '../../context/StudentContext';
 import {
   Calendar,
@@ -17,7 +17,18 @@ export default function UpskillingRoadmap() {
   const [completedTasks, setCompletedTasks] = useState({});
 
   const targetRole = roadmap?.target_role || profile.target_role || 'Full-Stack Developer';
-  const phases = roadmap?.phases || [];
+  const rawPhases = roadmap?.phases || (Array.isArray(roadmap) ? roadmap : prediction?.roadmap || []);
+  const phases = rawPhases.map((p, idx) => ({
+    phase_number: p.phase_number ?? idx + 1,
+    title: p.title || p.phase || `Phase ${idx + 1}`,
+    estimated_weeks: p.estimated_weeks || 3,
+    skills: p.skills || [],
+    recommended_actions: Array.isArray(p.recommended_actions)
+      ? p.recommended_actions
+      : p.recommended_action
+      ? [p.recommended_action]
+      : ['Follow guided track exercises'],
+  }));
   const missingSkills = prediction?.skill_gap_analysis?.missing_skills || [
     'Docker',
     'Kubernetes',

@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import {
   BarChart,
   Bar,
@@ -17,14 +17,19 @@ export default function FactorContributionChart() {
   const factors = prediction?.shap_factors || [];
 
   // Prepare data for horizontal bar chart
-  const chartData = factors.map((f) => ({
-    name: f.feature
-      .replace(/_/g, ' ')
-      .replace(/\b\w/g, (c) => c.toUpperCase()),
-    rawFeature: f.feature,
-    contribution: Number(f.contribution) || 0,
-    readable_string: f.readable_string || `${f.contribution > 0 ? '+' : ''}${f.contribution}% contribution`,
-  }));
+  const chartData = factors.map((f) => {
+    const contribution = Number(f.impact_pct ?? f.contribution ?? 0);
+    const isPositive = f.direction ? f.direction === 'positive' : contribution >= 0;
+    return {
+      name: (f.feature || 'Factor')
+        .replace(/_/g, ' ')
+        .replace(/\b\w/g, (c) => c.toUpperCase()),
+      rawFeature: f.feature,
+      contribution,
+      isPositive,
+      readable_string: f.readable_string || `${contribution > 0 ? '+' : ''}${contribution}% contribution`,
+    };
+  });
 
   const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {

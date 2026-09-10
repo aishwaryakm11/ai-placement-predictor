@@ -1,4 +1,4 @@
-﻿import apiClient from './api';
+import apiClient from './api';
 import { MOCK_TPO_ANALYTICS_RESPONSE } from '../utils/mockData';
 
 /**
@@ -8,9 +8,11 @@ import { MOCK_TPO_ANALYTICS_RESPONSE } from '../utils/mockData';
 export async function getTpoAnalytics() {
   try {
     const response = await apiClient.get('/api/tpo/analytics');
-    return response.data;
+    const raw = response.data;
+    const data = raw && raw.data !== undefined ? raw.data : raw;
+    return data;
   } catch (error) {
-    console.warn('Backend /api/tpo/analytics unavailable, using fallback mock analytics:', error.normalizedMessage);
+    console.warn('Backend /api/tpo/analytics unavailable, using fallback mock analytics:', error.normalizedMessage || error.message);
     return MOCK_TPO_ANALYTICS_RESPONSE;
   }
 }

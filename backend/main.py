@@ -46,8 +46,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=CORS_ORIGINS,
     allow_credentials=True,
-    allow_methods=["GET", "POST", "PUT", "OPTIONS"],
-    allow_headers=["Content-Type", "Authorization", "Accept"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # ─── Custom validation error handler ─────────────────────────────────────────
