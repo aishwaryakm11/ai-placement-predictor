@@ -1,0 +1,50 @@
+{
+  "Full-Stack Developer": {
+    "required_skills": ["JavaScript", "SQL", "Full-Stack", "DSA"],
+    "min_cgpa": 6.5,
+    "min_projects": 2,
+    "min_aptitude_score": 55,
+    "skill_tiers": {
+      "SQL": "foundational",
+      "DSA": "foundational",
+      "JavaScript": "intermediate",
+      "Full-Stack": "advanced"
+    }
+  },
+  "Data Analyst": {
+    "required_skills": ["Python", "SQL", "Data Science", "DBMS"],
+    "min_cgpa": 6.0,
+    "min_projects": 2,
+    "min_aptitude_score": 58,
+    "skill_tiers": {
+      "SQL": "foundational",
+      "DBMS": "foundational",
+      "Python": "intermediate",
+      "Data Science": "advanced"
+    }
+  },
+  "Cloud/DevOps Engineer": {
+    "required_skills": ["Python", "AWS", "Azure", "DSA"],
+    "min_cgpa": 6.5,
+    "min_projects": 2,
+    "min_aptitude_score": 60,
+    "skill_tiers": {
+      "DSA": "foundational",
+      "Python": "intermediate",
+      "AWS": "intermediate",
+      "Azure": "advanced"
+    }
+  },
+  "QA Specialist": {
+    "required_skills": ["SQL", "Python", "DBMS", "Cybersecurity"],
+    "min_cgpa": 5.5,
+    "min_projects": 1,
+    "min_aptitude_score": 50,
+    "skill_tiers": {
+      "SQL": "foundational",
+      "DBMS": "foundational",
+      "Python": "intermediate",
+      "Cybersecurity": "advanced"
+    }
+  }
+}
