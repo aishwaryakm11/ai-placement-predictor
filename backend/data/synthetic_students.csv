@@ -1,0 +1,501 @@
+student_id,department,semester,cgpa,tenth_pct,twelfth_pct,backlogs,projects_count,internships_count,open_source_contributions,aptitude_score,soft_skill_rating,hackathons_attended,leadership_roles,known_languages,certifications,target_role,placement_probability_label
+STU_0001,ISE,6,7.54,92.91,77.47,1,3,0,0,47.01,5.56,1,0,C++|Go|Python,,Data Analyst,90.8
+STU_0002,MECH,6,6.06,89.16,71.44,0,3,1,0,49.38,6.61,0,1,C++|SQL|Go,AWS,Cloud/DevOps Engineer,93.47
+STU_0003,CSE,5,8.03,76.24,74.27,0,4,3,0,58.34,7.85,0,1,SQL,DBMS|AWS|Cybersecurity,Data Analyst,100.0
+STU_0004,MECH,8,8.23,69.98,83.71,1,5,1,0,79.05,6.48,5,0,SQL|Python|Go,,Cloud/DevOps Engineer,100.0
+STU_0005,ISE,4,5.05,58.28,78.03,0,4,2,1,73.68,6.03,3,0,C++,,Cloud/DevOps Engineer,100.0
+STU_0006,CSE,6,5.77,77.65,81.06,1,3,2,0,72.84,6.12,0,0,SQL,DSA,Data Analyst,93.54
+STU_0007,MECH,6,7.34,100.0,84.03,0,3,1,0,48.52,7.99,1,1,Python|Go,,Full-Stack Developer,100.0
+STU_0008,CSE,6,6.85,85.48,74.63,0,4,2,0,56.88,8.34,1,1,JavaScript|Python|SQL,Azure|AWS,Full-Stack Developer,100.0
+STU_0009,ISE,3,7.18,77.52,84.81,0,1,0,0,69.08,5.5,0,1,C++,,QA Specialist,71.85
+STU_0010,CSE,5,6.26,85.72,81.41,0,3,0,1,55.58,5.5,0,0,Python|JavaScript|SQL,Data Science,Cloud/DevOps Engineer,89.69
+STU_0011,ECE,3,8.17,69.51,66.89,0,1,0,1,60.82,7.07,3,0,SQL|Python|JavaScript,DSA|Full-Stack,Data Analyst,100.0
+STU_0012,CSE,6,8.06,79.62,90.98,0,4,0,0,71.62,8.79,0,0,Java|Go,Full-Stack|DSA,Data Analyst,100.0
+STU_0013,CSE,7,7.27,82.8,73.49,2,3,1,0,59.77,8.22,1,2,SQL,AWS|DSA,Cloud/DevOps Engineer,100.0
+STU_0014,ECE,6,8.44,81.31,63.1,3,4,1,0,68.39,4.62,0,0,Python|SQL,,QA Specialist,84.57
+STU_0015,CIVIL,7,7.71,88.33,68.59,3,2,1,0,88.89,6.1,3,0,C++|Java|Python,,QA Specialist,88.89
+STU_0016,CSE,5,6.25,84.76,68.81,0,4,1,2,62.42,5.1,1,0,JavaScript|Java|Python,DSA,Cloud/DevOps Engineer,100.0
+STU_0017,ECE,4,7.61,87.35,78.47,0,5,0,0,82.69,6.1,0,0,JavaScript|SQL|Java,Full-Stack|Data Science|DBMS,Data Analyst,100.0
+STU_0018,CIVIL,5,6.15,76.49,75.54,1,1,0,1,73.39,8.91,1,0,Java,Azure|Full-Stack,QA Specialist,92.12
+STU_0019,ISE,4,8.17,89.18,74.97,0,2,1,0,42.99,4.37,2,0,C++,,QA Specialist,92.64
+STU_0020,ECE,7,7.15,95.03,83.58,1,2,1,1,48.47,4.07,0,1,JavaScript|Go,,Data Analyst,78.03
+STU_0021,CIVIL,7,7.0,74.24,81.06,1,2,1,0,52.5,5.26,0,0,SQL,Full-Stack,QA Specialist,79.51
+STU_0022,MECH,5,6.45,74.9,80.84,0,3,0,0,52.18,6.93,0,0,Java,DBMS|AWS|Azure,QA Specialist,100.0
+STU_0023,ISE,7,8.54,92.69,81.69,5,6,0,0,63.65,7.43,3,0,C++|Java,Azure,QA Specialist,94.93
+STU_0024,MECH,3,7.03,80.47,83.55,0,4,0,0,74.22,7.16,1,0,C++,Cybersecurity|Full-Stack,Full-Stack Developer,100.0
+STU_0025,MECH,3,6.73,93.23,59.03,0,3,1,1,83.83,8.26,1,0,C++|Go,Data Science,Full-Stack Developer,100.0
+STU_0026,ECE,4,6.81,78.46,74.72,2,2,0,0,69.62,3.86,2,0,Python|SQL,,Data Analyst,85.63
+STU_0027,ECE,5,7.79,93.64,58.38,1,2,0,0,58.31,8.28,0,1,Go,AWS|Full-Stack|Cybersecurity,QA Specialist,100.0
+STU_0028,CIVIL,4,7.6,83.05,78.32,0,2,1,1,33.77,6.03,0,1,Python|Java,DBMS|Full-Stack|Azure,Full-Stack Developer,100.0
+STU_0029,CIVIL,6,7.65,84.07,77.96,0,4,1,1,66.06,7.6,1,0,C++,,Full-Stack Developer,100.0
+STU_0030,CIVIL,7,7.67,94.52,87.41,0,2,2,0,65.39,4.51,0,0,Go|C++|JavaScript,,Full-Stack Developer,100.0
+STU_0031,MECH,5,9.56,79.11,88.69,1,5,0,0,67.74,6.51,0,0,Python,DBMS,Full-Stack Developer,100.0
+STU_0032,ISE,5,6.75,74.47,79.82,2,0,0,0,96.59,6.85,2,2,Go|SQL|JavaScript,Data Science|DBMS|AWS,QA Specialist,100.0
+STU_0033,CSE,3,6.64,78.41,73.5,0,1,0,0,83.61,8.23,0,0,C++|Python|Go,,Cloud/DevOps Engineer,85.92
+STU_0034,CSE,4,6.3,85.62,82.37,1,1,0,2,76.78,4.12,0,0,Python,,Cloud/DevOps Engineer,77.61
+STU_0035,CIVIL,7,7.88,69.47,73.25,1,5,2,0,50.57,6.55,1,0,Java|Go,,Data Analyst,100.0
+STU_0036,ISE,7,8.44,87.1,77.99,2,3,1,0,57.31,4.87,0,1,SQL|Java,Data Science,Cloud/DevOps Engineer,97.63
+STU_0037,CSE,3,7.07,77.69,86.88,0,1,1,1,63.58,7.26,1,0,Python|C++,,QA Specialist,96.53
+STU_0038,ISE,3,6.28,91.18,72.98,1,1,2,2,53.37,7.67,0,0,C++,,Cloud/DevOps Engineer,100.0
+STU_0039,CSE,7,6.29,62.85,85.25,0,2,0,2,72.51,8.43,2,0,Python,Cybersecurity|Full-Stack,QA Specialist,100.0
+STU_0040,ECE,4,7.92,75.71,84.1,0,4,0,1,70.35,5.7,0,0,SQL|Python,Azure|Data Science,Cloud/DevOps Engineer,100.0
+STU_0041,ECE,6,8.02,68.51,69.41,0,1,1,0,48.68,7.89,1,1,Python|Java|Go,DBMS,Data Analyst,100.0
+STU_0042,ISE,7,7.8,75.39,86.77,2,1,2,0,82.95,8.54,0,0,Go,,Cloud/DevOps Engineer,85.79
+STU_0043,MECH,7,6.47,83.98,84.29,1,5,0,0,66.53,4.04,2,0,Python|Go|C++,,QA Specialist,91.82
+STU_0044,ECE,6,7.46,80.57,78.92,0,1,1,0,39.06,7.42,1,0,SQL|Java,,QA Specialist,83.29
+STU_0045,CIVIL,5,7.33,79.97,71.14,2,2,0,1,64.23,7.94,1,0,Go|JavaScript|Python,,Data Analyst,83.37
+STU_0046,MECH,7,7.44,80.73,70.27,0,5,1,0,69.22,6.11,0,0,SQL,AWS,Cloud/DevOps Engineer,100.0
+STU_0047,CSE,7,8.16,83.63,73.16,1,2,0,1,79.59,4.68,1,0,Java|Python|Go,DSA|Full-Stack|Azure,QA Specialist,100.0
+STU_0048,ISE,8,7.45,73.93,82.88,0,7,1,1,59.94,7.91,2,0,SQL|Python,Full-Stack|Data Science,Cloud/DevOps Engineer,100.0
+STU_0049,MECH,6,7.95,87.65,69.4,0,2,0,2,77.42,4.7,2,1,SQL|JavaScript,,Cloud/DevOps Engineer,93.99
+STU_0050,ECE,8,7.27,87.3,81.94,1,1,0,0,67.81,6.23,0,1,Java|Go,AWS|Azure|Data Science,Data Analyst,94.74
+STU_0051,MECH,7,7.52,85.08,66.82,0,1,1,0,45.27,6.44,1,1,JavaScript|Go|Python,,QA Specialist,92.44
+STU_0052,ISE,3,7.89,86.45,76.16,0,4,0,2,43.77,7.57,1,0,Java|JavaScript|C++,,QA Specialist,100.0
+STU_0053,CSE,4,5.6,84.37,78.99,0,2,0,0,81.84,5.56,2,0,Go|SQL,,Full-Stack Developer,88.13
+STU_0054,MECH,7,6.85,98.28,100.0,1,4,0,1,82.94,5.47,1,0,Go|Python|JavaScript,Cybersecurity|Data Science,Full-Stack Developer,98.61
+STU_0055,MECH,3,6.68,81.3,65.6,1,8,1,1,69.84,6.65,1,1,Java,,Full-Stack Developer,100.0
+STU_0056,MECH,7,6.5,79.54,91.25,1,4,2,0,87.44,8.01,0,0,Python|Java,DBMS|Data Science,Data Analyst,100.0
+STU_0057,ECE,5,6.9,75.97,79.35,0,2,2,0,80.85,9.93,0,1,Java|Go|JavaScript,Full-Stack,Full-Stack Developer,100.0
+STU_0058,CSE,4,8.84,73.74,81.7,1,2,0,0,75.25,4.24,1,2,Python|C++|Go,Cybersecurity|Full-Stack|Azure,QA Specialist,100.0
+STU_0059,MECH,6,6.25,72.04,79.07,2,2,2,0,51.33,6.97,0,1,JavaScript,DBMS|Cybersecurity|Data Science,QA Specialist,99.77
+STU_0060,MECH,8,8.27,74.89,82.0,1,3,1,2,90.97,4.87,0,0,Go|Python,,Full-Stack Developer,100.0
+STU_0061,MECH,8,5.35,81.43,76.62,0,3,2,0,73.04,8.03,0,1,JavaScript,AWS,QA Specialist,100.0
+STU_0062,CSE,5,6.83,84.67,91.09,1,4,0,0,59.21,5.09,0,0,JavaScript|Python,,Full-Stack Developer,73.21
+STU_0063,MECH,3,7.38,82.41,73.89,3,2,0,1,54.98,5.49,1,0,C++|SQL,,QA Specialist,66.12
+STU_0064,MECH,8,7.84,75.88,88.19,0,2,1,0,68.85,5.62,0,0,JavaScript,,Data Analyst,100.0
+STU_0065,CIVIL,8,7.98,89.2,72.2,0,4,1,0,39.93,6.39,2,0,Go|Java,,Full-Stack Developer,100.0
+STU_0066,ECE,6,8.07,87.92,77.46,0,5,0,1,75.5,6.98,0,0,Go|Python|C++,,Data Analyst,100.0
+STU_0067,MECH,6,6.82,80.72,68.35,1,4,1,0,50.7,7.23,0,1,Python|JavaScript|C++,Full-Stack,QA Specialist,100.0
+STU_0068,ECE,6,6.69,76.78,82.1,0,4,1,1,70.56,6.49,1,1,Go,Data Science|Azure,QA Specialist,100.0
+STU_0069,MECH,3,8.14,86.39,91.01,1,3,1,0,57.18,4.51,0,0,Python|JavaScript|C++,,Full-Stack Developer,93.79
+STU_0070,MECH,3,6.99,83.5,77.3,0,1,2,0,61.03,7.59,1,0,SQL|C++,DBMS,QA Specialist,100.0
+STU_0071,MECH,3,5.8,70.41,76.23,0,4,0,1,53.65,6.42,0,0,Java|SQL|C++,,Data Analyst,85.78
+STU_0072,CIVIL,8,5.95,81.46,67.97,2,3,0,0,62.58,8.24,0,0,JavaScript|Go|Python,Cybersecurity,Data Analyst,80.48
+STU_0073,CSE,3,6.19,84.1,75.94,3,1,1,0,93.34,5.44,2,0,JavaScript|Java|Python,,Full-Stack Developer,74.97
+STU_0074,MECH,6,7.75,74.8,63.66,0,2,0,1,85.78,4.1,1,0,JavaScript,Data Science|Full-Stack|DSA,QA Specialist,100.0
+STU_0075,MECH,5,7.36,83.52,69.78,1,2,0,0,70.32,6.45,4,0,C++|Python,DBMS|Azure,QA Specialist,100.0
+STU_0076,ECE,3,7.96,70.36,80.04,2,2,1,1,64.62,8.44,0,0,Java,,Cloud/DevOps Engineer,100.0
+STU_0077,ECE,8,6.73,92.69,89.87,3,2,1,0,77.66,6.74,1,0,JavaScript|C++,,Cloud/DevOps Engineer,75.58
+STU_0078,MECH,3,7.37,91.98,100.0,2,3,2,0,81.95,6.2,1,0,SQL|Python|JavaScript,,QA Specialist,100.0
+STU_0079,ECE,8,7.89,79.98,72.72,2,3,0,1,52.55,5.19,0,0,Go|SQL|Python,Azure,Full-Stack Developer,90.24
+STU_0080,ECE,7,6.86,84.91,90.92,0,2,0,0,63.84,9.14,2,0,Go|C++,Azure|AWS|Data Science,Full-Stack Developer,100.0
+STU_0081,CIVIL,7,7.7,62.72,80.19,0,1,1,0,37.67,4.96,0,0,Python|SQL,,Full-Stack Developer,92.92
+STU_0082,MECH,3,6.47,72.75,76.64,1,3,2,0,81.85,5.41,2,0,C++,,Data Analyst,100.0
+STU_0083,ISE,8,6.8,79.65,81.89,1,8,1,2,95.98,7.36,1,1,Java,DSA|DBMS|Full-Stack,Data Analyst,100.0
+STU_0084,CIVIL,6,6.78,73.42,78.56,2,1,1,1,66.2,3.72,0,1,SQL|Java|C++,Data Science,Full-Stack Developer,67.73
+STU_0085,ISE,5,5.88,87.72,78.99,2,5,2,0,33.12,8.41,2,2,Python|SQL,Cybersecurity|Data Science|DBMS,Cloud/DevOps Engineer,100.0
+STU_0086,CSE,7,7.74,97.98,74.33,0,2,1,0,74.13,7.44,1,1,C++|Go|SQL,,Full-Stack Developer,100.0
+STU_0087,CIVIL,5,6.68,72.59,65.42,5,4,1,1,51.44,7.85,2,0,Java,DSA|DBMS|Full-Stack,QA Specialist,100.0
+STU_0088,ISE,4,7.21,75.3,64.11,1,1,1,1,55.05,7.34,0,0,Python|JavaScript|Java,DBMS,Cloud/DevOps Engineer,99.05
+STU_0089,ISE,4,7.73,83.88,83.88,1,1,0,1,74.4,6.26,1,0,JavaScript,Azure,QA Specialist,100.0
+STU_0090,ISE,6,7.69,94.89,75.51,0,1,1,2,68.82,4.91,0,2,Java,Azure,Full-Stack Developer,100.0
+STU_0091,ECE,6,7.93,72.22,72.64,1,5,3,1,57.68,6.29,2,1,SQL,DSA|Cybersecurity|Azure,QA Specialist,100.0
+STU_0092,CSE,4,7.09,83.99,78.08,1,0,1,0,55.26,5.04,0,0,SQL,DBMS,Cloud/DevOps Engineer,88.34
+STU_0093,CSE,4,6.73,96.57,85.15,2,5,0,0,66.89,7.23,2,1,C++|Go,,QA Specialist,88.83
+STU_0094,ISE,8,7.11,68.79,79.62,1,4,1,1,58.86,7.71,2,0,SQL,DSA|Data Science|DBMS,Cloud/DevOps Engineer,100.0
+STU_0095,ISE,6,5.34,71.75,72.1,1,1,0,0,48.36,8.72,0,0,C++|JavaScript|Python,,Cloud/DevOps Engineer,74.36
+STU_0096,CSE,8,5.61,78.61,89.04,1,1,0,1,60.01,7.06,0,0,JavaScript|C++,DSA|AWS,Full-Stack Developer,84.3
+STU_0097,CIVIL,4,5.75,77.84,92.21,0,2,1,0,70.09,7.89,1,0,Java|C++|JavaScript,,Cloud/DevOps Engineer,94.6
+STU_0098,ECE,4,6.1,88.5,82.45,1,0,0,0,62.33,6.05,1,0,Python|Java|SQL,AWS|Azure|DBMS,Data Analyst,77.46
+STU_0099,CSE,4,7.64,83.93,86.76,1,2,0,0,43.8,5.78,0,1,SQL|Java,Data Science|Azure,QA Specialist,100.0
+STU_0100,CSE,6,6.2,67.8,89.18,0,0,1,0,79.84,7.21,2,0,Java,,Cloud/DevOps Engineer,97.68
+STU_0101,CIVIL,7,6.78,86.12,88.17,1,3,3,0,23.92,5.92,1,1,SQL|C++,,Full-Stack Developer,100.0
+STU_0102,ISE,6,8.63,77.38,83.53,0,3,1,0,58.3,6.9,0,0,C++|Go|SQL,,QA Specialist,100.0
+STU_0103,CSE,4,6.81,92.2,83.39,1,4,0,0,55.7,4.91,0,1,C++|Go,Data Science|Cybersecurity,Full-Stack Developer,94.15
+STU_0104,MECH,8,8.01,76.98,82.68,1,3,0,1,67.22,5.18,1,0,Python,Azure,Data Analyst,100.0
+STU_0105,CIVIL,6,6.17,76.91,68.12,3,5,1,1,73.42,7.45,0,1,Python|C++,AWS|DSA,Full-Stack Developer,100.0
+STU_0106,ISE,5,6.97,86.33,84.31,1,1,3,0,81.9,7.83,0,0,Java|Go,Full-Stack,QA Specialist,100.0
+STU_0107,MECH,3,6.15,88.1,65.8,0,3,0,0,54.31,5.02,1,1,C++|Python|JavaScript,,Full-Stack Developer,79.92
+STU_0108,ECE,6,6.83,85.58,70.85,0,2,1,1,73.8,7.51,1,0,SQL,Full-Stack|AWS|DBMS,QA Specialist,100.0
+STU_0109,CSE,6,8.12,68.52,89.73,0,0,1,0,67.94,5.7,1,0,Java|SQL,Full-Stack|DSA|Azure,Full-Stack Developer,100.0
+STU_0110,MECH,8,5.3,86.3,85.56,2,3,2,2,39.33,6.52,0,2,Go|Python|JavaScript,Data Science|Cybersecurity,Cloud/DevOps Engineer,87.36
+STU_0111,CIVIL,4,7.68,73.73,91.39,1,5,0,0,93.51,8.63,2,1,Python|JavaScript|Go,DSA,Full-Stack Developer,100.0
+STU_0112,CIVIL,3,7.46,83.88,75.55,1,3,1,0,43.42,7.71,1,2,JavaScript|Java,Cybersecurity|DSA,Data Analyst,100.0
+STU_0113,CSE,8,6.55,70.61,67.63,1,1,0,0,71.29,7.69,0,0,Python|Java,,Cloud/DevOps Engineer,83.42
+STU_0114,ECE,6,5.61,85.57,75.84,2,1,0,1,70.85,9.36,1,0,Go,Full-Stack,Cloud/DevOps Engineer,94.15
+STU_0115,MECH,3,7.28,75.55,78.92,1,3,0,0,69.13,5.44,1,0,C++|JavaScript,Full-Stack|Cybersecurity,QA Specialist,86.25
+STU_0116,CSE,3,6.62,71.74,78.71,3,2,1,0,57.58,5.02,1,0,C++|JavaScript,,QA Specialist,83.13
+STU_0117,CIVIL,5,7.46,87.71,88.2,0,1,1,0,77.41,5.42,1,2,JavaScript,Full-Stack|Data Science,Cloud/DevOps Engineer,100.0
+STU_0118,CSE,6,7.22,83.93,74.75,0,1,1,1,41.59,6.12,2,1,Go|C++|Java,,Data Analyst,98.77
+STU_0119,ISE,4,8.96,77.09,81.17,0,2,1,0,64.01,2.97,0,0,Go,,Data Analyst,90.66
+STU_0120,CIVIL,5,6.94,93.61,69.1,0,1,1,0,56.54,6.19,0,0,Java,,QA Specialist,95.8
+STU_0121,ECE,7,6.07,78.47,82.05,0,3,0,0,54.84,5.68,0,0,SQL|C++,,Cloud/DevOps Engineer,82.45
+STU_0122,MECH,8,7.4,82.26,78.03,1,0,0,0,71.43,7.68,1,0,JavaScript,Full-Stack,QA Specialist,88.63
+STU_0123,ECE,5,7.44,84.15,71.25,0,2,2,0,81.16,7.03,2,1,Python,DBMS|Azure,Data Analyst,100.0
+STU_0124,MECH,5,8.7,77.04,75.88,2,3,0,1,59.85,5.6,0,0,Python|Java,AWS|Data Science|Cybersecurity,Data Analyst,100.0
+STU_0125,CSE,5,8.12,85.77,76.34,2,3,1,2,76.71,7.38,0,0,C++|Go|Java,Full-Stack,QA Specialist,100.0
+STU_0126,MECH,3,7.59,77.73,75.57,1,4,0,0,65.75,7.58,1,0,Go|Python,Full-Stack|DBMS|AWS,Cloud/DevOps Engineer,100.0
+STU_0127,CSE,3,8.81,78.71,93.94,0,4,1,0,51.61,5.35,0,2,Python,Data Science|Azure,Full-Stack Developer,100.0
+STU_0128,CSE,8,5.89,92.9,77.11,0,3,1,1,61.13,5.76,3,0,Java|SQL,,Cloud/DevOps Engineer,100.0
+STU_0129,ECE,3,6.5,73.68,75.8,1,3,0,0,60.51,3.16,1,0,Python|SQL|JavaScript,,Full-Stack Developer,70.01
+STU_0130,ECE,7,6.18,62.7,59.12,1,2,0,0,54.55,4.86,1,1,Java|JavaScript,Azure|Cybersecurity,QA Specialist,92.96
+STU_0131,CSE,4,6.77,94.89,69.95,0,2,1,0,71.43,5.39,3,0,SQL|Python|Go,DSA,Full-Stack Developer,100.0
+STU_0132,MECH,7,5.69,100.0,75.63,0,2,2,1,68.52,6.61,1,0,Java|SQL|Go,,QA Specialist,100.0
+STU_0133,ISE,8,7.9,78.76,71.83,1,4,0,0,41.14,5.08,1,0,JavaScript|SQL|Java,Cybersecurity|DBMS|Data Science,QA Specialist,100.0
+STU_0134,CIVIL,7,6.96,66.51,90.44,2,2,0,1,40.23,5.73,0,0,JavaScript|C++|Go,,Full-Stack Developer,69.9
+STU_0135,CSE,7,5.58,79.52,76.52,1,4,0,0,71.37,4.66,1,0,JavaScript,Azure|DSA,Cloud/DevOps Engineer,73.31
+STU_0136,ISE,4,6.08,79.71,89.6,0,1,2,0,52.77,6.76,1,0,Go|JavaScript,DSA|Cybersecurity|Azure,Full-Stack Developer,100.0
+STU_0137,ISE,6,7.54,80.48,78.56,2,3,1,1,69.53,7.14,1,0,JavaScript|Python|C++,,Data Analyst,90.63
+STU_0138,ECE,6,8.12,73.09,78.34,1,2,0,0,76.71,7.1,0,0,JavaScript|C++|SQL,Cybersecurity|Data Science,Data Analyst,100.0
+STU_0139,ECE,5,9.4,86.64,77.2,1,4,0,1,45.94,6.52,1,0,Go,,Cloud/DevOps Engineer,100.0
+STU_0140,CSE,3,10.0,86.2,78.03,1,2,1,0,43.83,4.19,1,0,SQL|C++,DBMS|AWS,QA Specialist,100.0
+STU_0141,ECE,8,7.66,70.04,93.47,0,1,0,1,90.12,5.57,0,2,Python,Data Science|DSA,Data Analyst,100.0
+STU_0142,CIVIL,4,6.11,87.59,57.12,2,0,1,2,70.27,5.89,1,1,Python|JavaScript|Go,,Data Analyst,72.9
+STU_0143,CSE,8,4.85,98.42,59.99,0,4,0,1,58.71,5.9,2,1,Java|C++,Azure|AWS|Full-Stack,Full-Stack Developer,99.96
+STU_0144,ISE,8,7.49,83.38,73.11,0,3,0,0,50.99,6.61,1,0,SQL|JavaScript|C++,DBMS|Full-Stack,QA Specialist,100.0
+STU_0145,ECE,3,6.31,79.3,78.13,0,2,1,0,57.34,8.64,1,0,C++|JavaScript|SQL,Azure|AWS|Data Science,Data Analyst,100.0
+STU_0146,MECH,7,6.74,80.86,84.21,0,2,0,1,47.14,7.72,2,1,C++|SQL|Python,Data Science|DBMS|Azure,Data Analyst,96.62
+STU_0147,CSE,6,6.53,86.92,82.26,0,7,1,0,78.25,5.02,1,0,JavaScript,Data Science|Cybersecurity,Full-Stack Developer,100.0
+STU_0148,ISE,4,7.05,68.15,74.54,0,1,1,4,53.35,7.52,5,0,C++,,Data Analyst,100.0
+STU_0149,ISE,7,8.37,83.32,87.17,1,1,0,1,81.4,7.46,3,0,Java,,Cloud/DevOps Engineer,100.0
+STU_0150,MECH,3,7.37,78.88,87.27,2,1,0,1,58.99,5.29,1,0,SQL,Full-Stack|Azure,QA Specialist,89.75
+STU_0151,CSE,4,7.03,96.78,79.66,1,2,0,1,49.35,7.77,1,0,Python|JavaScript,,Data Analyst,94.55
+STU_0152,MECH,8,6.06,80.61,86.66,2,4,0,1,58.61,6.26,0,0,C++|Go|JavaScript,Azure|AWS|DSA,Cloud/DevOps Engineer,93.14
+STU_0153,ECE,7,5.36,95.34,80.45,1,2,0,0,25.64,4.39,1,1,Python|SQL|Go,,QA Specialist,46.96
+STU_0154,ISE,3,6.67,73.17,72.95,1,2,2,0,63.19,7.18,2,0,SQL|Python|JavaScript,AWS|Data Science,Data Analyst,100.0
+STU_0155,CIVIL,3,7.14,86.7,84.28,1,3,1,0,62.45,6.83,1,1,Python|JavaScript|C++,DBMS,Data Analyst,100.0
+STU_0156,CIVIL,4,9.14,84.56,79.0,2,2,1,1,77.37,6.16,2,1,Python|SQL,,Full-Stack Developer,100.0
+STU_0157,CIVIL,3,7.34,75.05,78.01,1,0,0,0,36.71,6.44,1,0,C++|Python,DSA,QA Specialist,75.12
+STU_0158,CIVIL,4,8.28,83.42,91.26,0,5,0,0,82.43,5.42,2,0,Java|SQL,Azure|Cybersecurity,Full-Stack Developer,100.0
+STU_0159,ISE,6,6.65,91.7,55.94,0,2,0,0,77.31,7.42,1,0,Go,,Full-Stack Developer,88.8
+STU_0160,CIVIL,3,5.9,79.41,65.24,0,1,0,1,83.78,6.43,1,0,C++|Go|Java,AWS,Full-Stack Developer,100.0
+STU_0161,CSE,4,6.14,68.46,67.32,0,3,2,0,64.21,6.75,0,0,SQL,Data Science|DSA|Full-Stack,Cloud/DevOps Engineer,100.0
+STU_0162,ISE,4,6.4,81.86,74.73,0,1,0,0,80.21,7.04,1,0,Python,,Data Analyst,88.76
+STU_0163,ECE,8,9.54,74.78,75.71,2,3,0,0,42.93,4.77,2,0,Go,,Cloud/DevOps Engineer,90.74
+STU_0164,MECH,8,6.3,79.26,64.43,1,1,0,1,75.7,5.16,0,0,JavaScript|C++|Java,,Cloud/DevOps Engineer,69.47
+STU_0165,ECE,8,8.12,81.35,69.13,1,1,1,0,53.43,3.19,2,0,JavaScript,Cybersecurity|DSA|Azure,Full-Stack Developer,100.0
+STU_0166,ECE,5,6.21,68.35,70.25,1,3,3,1,40.23,7.35,1,0,Java,Cybersecurity,Data Analyst,100.0
+STU_0167,ISE,6,8.22,69.07,100.0,1,2,1,0,48.14,4.68,1,0,SQL,Data Science,Full-Stack Developer,86.33
+STU_0168,ECE,6,7.62,85.86,94.22,1,6,0,0,65.08,6.7,0,1,JavaScript|C++|SQL,DBMS|Azure|Full-Stack,Full-Stack Developer,100.0
+STU_0169,ECE,8,7.03,77.82,74.29,2,3,1,1,52.64,7.06,0,0,Python|Java|JavaScript,Data Science|DSA,Data Analyst,100.0
+STU_0170,ECE,7,7.16,61.48,74.73,2,5,1,0,70.64,7.4,4,0,Python,Cybersecurity|AWS,Data Analyst,100.0
+STU_0171,ECE,8,6.48,88.28,67.66,0,1,0,1,37.88,4.69,0,0,Go|Python,Data Science|Cybersecurity,Full-Stack Developer,92.52
+STU_0172,MECH,6,7.69,84.18,60.83,0,2,0,1,33.09,6.4,3,0,JavaScript|SQL|Java,Full-Stack,Data Analyst,100.0
+STU_0173,ISE,8,6.7,76.29,76.95,0,3,1,0,85.59,9.01,4,1,JavaScript|Go,,Data Analyst,100.0
+STU_0174,CSE,7,5.85,71.47,69.02,3,2,0,1,78.56,9.07,0,0,Python,,QA Specialist,78.91
+STU_0175,ISE,7,5.79,88.69,77.24,3,0,0,0,49.26,7.98,1,0,Python|C++,DSA|AWS|DBMS,Cloud/DevOps Engineer,70.4
+STU_0176,ECE,6,7.39,84.79,63.6,1,7,2,0,64.96,7.01,2,1,JavaScript|C++|SQL,,Data Analyst,100.0
+STU_0177,CSE,5,8.94,100.0,71.14,0,1,1,0,80.29,4.99,0,0,Python|Java|JavaScript,,Data Analyst,100.0
+STU_0178,CSE,6,7.38,85.36,79.34,0,1,1,1,71.29,7.58,1,1,Python|Go,Cybersecurity,Full-Stack Developer,100.0
+STU_0179,CIVIL,5,7.07,85.1,81.3,4,3,0,0,67.22,6.26,0,0,C++|Java,,Data Analyst,66.84
+STU_0180,ISE,6,7.51,80.66,81.76,0,7,1,1,81.43,7.34,1,2,JavaScript|Python|SQL,,Cloud/DevOps Engineer,100.0
+STU_0181,MECH,4,8.64,88.53,66.12,1,0,0,0,54.04,5.55,1,1,SQL,Full-Stack|Azure,Full-Stack Developer,90.54
+STU_0182,CSE,7,7.44,87.0,85.69,1,1,2,1,65.47,6.24,2,0,JavaScript|Python,Cybersecurity,QA Specialist,100.0
+STU_0183,CIVIL,6,6.75,92.01,70.8,0,1,2,1,64.73,6.75,0,0,SQL,Azure|AWS,Cloud/DevOps Engineer,100.0
+STU_0184,ISE,7,8.42,77.83,83.7,1,5,1,0,60.91,6.87,2,1,Python,Cybersecurity,QA Specialist,100.0
+STU_0185,ISE,4,7.67,78.52,77.9,0,2,1,1,59.15,7.24,0,0,Python|C++|SQL,Data Science,Data Analyst,100.0
+STU_0186,MECH,7,8.89,78.17,65.61,0,2,0,0,66.09,5.63,0,0,Python|SQL,DSA|AWS|Cybersecurity,QA Specialist,100.0
+STU_0187,ISE,7,7.4,88.33,75.15,0,4,1,0,65.52,4.49,1,0,JavaScript,,Data Analyst,98.8
+STU_0188,ECE,3,5.85,93.99,81.29,1,2,2,2,49.27,8.94,1,1,JavaScript|SQL|Python,AWS|DBMS|Full-Stack,QA Specialist,100.0
+STU_0189,MECH,5,5.7,78.33,83.52,0,1,0,2,77.03,10.0,3,0,Python|Go,,Cloud/DevOps Engineer,100.0
+STU_0190,CSE,7,9.02,78.6,76.73,1,2,0,0,50.35,7.17,1,2,JavaScript,,Cloud/DevOps Engineer,98.74
+STU_0191,CSE,8,9.1,84.51,91.79,0,2,0,4,61.73,4.51,0,0,SQL|C++|Java,Azure,Full-Stack Developer,100.0
+STU_0192,MECH,7,7.0,80.03,87.07,0,4,0,2,60.57,5.34,1,0,Java|SQL|JavaScript,,QA Specialist,99.61
+STU_0193,ISE,5,6.78,89.62,75.69,0,0,2,1,70.37,7.26,0,0,JavaScript,,Full-Stack Developer,100.0
+STU_0194,CIVIL,4,8.81,63.99,84.75,1,3,0,1,33.21,8.51,1,0,Java|Python|SQL,Cybersecurity,Full-Stack Developer,100.0
+STU_0195,CIVIL,8,5.98,75.39,95.4,0,3,1,1,78.36,4.68,0,0,Python|Go|C++,Data Science|DBMS|Azure,Data Analyst,100.0
+STU_0196,CIVIL,8,6.22,75.74,95.64,0,1,0,0,54.85,6.31,2,1,JavaScript,Azure|Data Science,QA Specialist,93.23
+STU_0197,CIVIL,8,7.91,63.44,66.95,1,5,0,0,83.3,6.79,0,2,Java|SQL,DBMS|AWS,QA Specialist,100.0
+STU_0198,CIVIL,4,6.77,74.29,69.66,1,0,0,0,57.83,7.8,2,0,SQL|Java,DSA|Full-Stack,QA Specialist,100.0
+STU_0199,ISE,5,7.19,74.68,91.36,1,2,0,0,64.27,5.98,0,1,SQL|Java|C++,,Cloud/DevOps Engineer,88.88
+STU_0200,CIVIL,4,7.02,80.39,68.48,0,1,1,1,93.71,4.15,0,0,C++,,QA Specialist,93.77
+STU_0201,ISE,8,7.57,90.9,66.1,0,0,1,1,60.84,7.43,1,0,Python,,Data Analyst,100.0
+STU_0202,ECE,8,8.75,80.04,73.62,2,0,1,0,83.58,8.19,2,0,Python|SQL|JavaScript,,Data Analyst,97.13
+STU_0203,CSE,4,7.3,73.75,81.78,0,4,0,1,65.59,6.38,1,1,Java,,Full-Stack Developer,100.0
+STU_0204,CIVIL,4,7.91,81.54,77.08,2,3,0,0,71.23,7.11,0,0,C++|Java|Go,,QA Specialist,97.42
+STU_0205,ECE,6,4.94,90.39,72.14,0,1,0,2,66.05,5.79,1,0,Python|JavaScript|SQL,Azure|Data Science,Data Analyst,82.46
+STU_0206,CIVIL,5,7.15,74.19,71.93,2,6,0,2,77.72,5.23,2,0,C++,,Full-Stack Developer,100.0
+STU_0207,ISE,5,6.27,74.72,71.59,2,2,1,0,54.72,8.04,1,3,Go,AWS|DSA|Data Science,Data Analyst,100.0
+STU_0208,ISE,5,5.86,86.47,70.08,1,3,0,0,50.24,7.08,2,0,JavaScript|Go,,Cloud/DevOps Engineer,96.58
+STU_0209,ECE,7,6.23,80.23,98.53,0,1,0,0,55.42,7.24,1,0,SQL|JavaScript|Java,Azure|Full-Stack,Data Analyst,87.62
+STU_0210,CIVIL,8,6.83,87.18,80.68,0,0,2,1,66.5,8.75,1,0,JavaScript,Data Science,Data Analyst,100.0
+STU_0211,ECE,8,8.21,81.89,85.98,0,3,1,0,61.69,4.92,0,0,Python,,Data Analyst,100.0
+STU_0212,MECH,5,5.74,87.61,73.6,1,1,1,1,75.65,5.67,0,1,C++|SQL|JavaScript,Azure|Full-Stack|Cybersecurity,Cloud/DevOps Engineer,90.78
+STU_0213,ISE,7,7.23,73.72,76.33,0,4,1,0,84.57,6.74,1,0,SQL|Go|Java,Full-Stack|DSA,Cloud/DevOps Engineer,100.0
+STU_0214,MECH,7,6.67,81.9,71.58,1,1,0,1,50.36,5.65,0,2,JavaScript|SQL|Python,Full-Stack,Cloud/DevOps Engineer,81.91
+STU_0215,MECH,4,6.84,80.31,54.13,2,7,1,0,53.99,7.67,1,1,Go|C++|Java,Full-Stack|DBMS,Full-Stack Developer,100.0
+STU_0216,CIVIL,7,8.3,72.27,65.6,0,0,1,0,43.46,6.22,0,0,Java,AWS,Data Analyst,98.35
+STU_0217,CSE,5,7.79,69.49,61.7,1,1,2,0,95.46,5.01,2,0,C++,AWS|Azure,Cloud/DevOps Engineer,100.0
+STU_0218,ISE,6,8.67,87.49,57.75,0,4,0,2,69.57,6.6,1,1,Go,DBMS,Full-Stack Developer,100.0
+STU_0219,CSE,7,7.03,79.19,67.24,0,2,0,0,72.2,6.76,2,0,JavaScript|Python|Java,DSA|Azure|DBMS,Full-Stack Developer,100.0
+STU_0220,ECE,8,6.43,73.82,89.92,0,2,0,0,44.9,7.9,3,0,Go,,Data Analyst,89.83
+STU_0221,MECH,8,6.95,81.23,77.6,1,3,1,0,64.98,7.09,0,0,Python|SQL,,Cloud/DevOps Engineer,95.66
+STU_0222,MECH,7,7.47,91.02,89.62,0,3,0,0,72.64,7.19,1,1,Python|SQL,AWS|Cybersecurity,Cloud/DevOps Engineer,100.0
+STU_0223,MECH,6,7.39,63.75,81.7,2,2,0,0,61.21,6.98,2,0,JavaScript|Java,,Full-Stack Developer,88.94
+STU_0224,MECH,5,6.01,70.03,85.04,1,1,1,1,81.14,6.22,0,0,Go|JavaScript,,Cloud/DevOps Engineer,87.64
+STU_0225,CIVIL,5,7.3,74.62,69.89,2,1,1,0,99.68,5.43,1,0,JavaScript|SQL,Full-Stack,Full-Stack Developer,85.24
+STU_0226,CIVIL,8,7.45,93.69,82.72,4,3,0,0,50.79,6.93,2,0,C++|Java|Go,DBMS,Cloud/DevOps Engineer,71.54
+STU_0227,ECE,4,9.97,84.26,84.56,0,4,1,1,49.67,6.0,2,0,SQL|Go,,Cloud/DevOps Engineer,100.0
+STU_0228,CIVIL,6,9.26,88.14,72.81,2,4,1,0,51.83,9.03,0,0,Java|Go,Data Science|DSA|Azure,Full-Stack Developer,100.0
+STU_0229,CSE,7,6.26,72.88,83.04,0,3,2,1,89.09,8.51,2,0,SQL|JavaScript,Full-Stack|Azure|DBMS,Data Analyst,100.0
+STU_0230,MECH,3,6.88,73.04,83.1,1,0,0,1,80.64,7.45,2,2,C++,Data Science,QA Specialist,100.0
+STU_0231,ECE,6,5.59,85.58,73.05,1,1,2,2,62.97,7.07,3,0,Python|Go,Full-Stack,Data Analyst,100.0
+STU_0232,CIVIL,4,6.55,82.47,67.9,2,2,0,1,65.55,6.37,2,0,SQL,,Cloud/DevOps Engineer,83.65
+STU_0233,ECE,4,7.55,86.39,67.34,1,0,1,2,52.75,4.61,0,0,Python|C++,Cybersecurity,Cloud/DevOps Engineer,79.37
+STU_0234,CSE,6,8.53,80.5,78.78,2,1,2,1,78.35,6.18,0,0,Java|C++,Cybersecurity|Full-Stack|Data Science,Full-Stack Developer,100.0
+STU_0235,MECH,3,6.4,84.23,80.94,0,2,1,0,59.3,6.65,1,2,Java|JavaScript|SQL,,QA Specialist,91.92
+STU_0236,CIVIL,3,6.48,83.26,70.87,0,3,0,0,61.1,6.84,0,1,Python|C++|Go,,Data Analyst,91.54
+STU_0237,CSE,5,4.84,88.22,78.24,1,6,1,2,74.13,7.2,0,0,Go|Python,,QA Specialist,100.0
+STU_0238,CSE,6,7.02,88.46,83.13,1,2,0,0,62.18,7.88,1,0,C++,,Data Analyst,89.64
+STU_0239,MECH,3,6.03,69.04,83.56,1,1,1,0,61.48,5.46,4,0,Java,DBMS|AWS,Cloud/DevOps Engineer,88.76
+STU_0240,ECE,5,6.62,64.02,91.97,1,1,1,2,65.16,5.48,1,1,SQL|JavaScript,,Data Analyst,93.21
+STU_0241,ECE,4,6.24,90.01,89.49,2,2,0,0,76.93,8.68,1,0,Java|C++|Go,Cybersecurity,QA Specialist,83.73
+STU_0242,CSE,6,7.1,91.5,68.99,2,1,0,0,89.7,7.66,2,0,C++,,Full-Stack Developer,79.79
+STU_0243,ECE,4,5.27,73.84,93.15,0,3,2,0,73.78,5.91,1,1,Python,DBMS|DSA|Full-Stack,QA Specialist,100.0
+STU_0244,ECE,3,5.59,67.12,73.22,1,5,3,1,77.05,6.34,1,0,Java,DSA|Data Science,Full-Stack Developer,100.0
+STU_0245,CIVIL,6,9.54,82.79,87.4,0,0,3,0,62.0,6.35,1,0,JavaScript|Python,Data Science|Azure,QA Specialist,100.0
+STU_0246,ISE,8,5.78,89.45,78.61,1,2,1,0,54.38,6.55,1,1,Go,Full-Stack|Data Science|DSA,Full-Stack Developer,96.46
+STU_0247,ISE,6,5.99,96.38,74.29,0,2,0,0,74.81,7.21,3,0,Java,Cybersecurity|Azure|Full-Stack,Full-Stack Developer,100.0
+STU_0248,CSE,5,9.22,86.13,61.73,0,0,0,1,67.57,10.0,1,1,Go|Java,,Full-Stack Developer,100.0
+STU_0249,ECE,5,10.0,79.03,76.46,1,0,1,0,43.66,6.78,1,0,JavaScript|Go,AWS|Cybersecurity|Data Science,Cloud/DevOps Engineer,100.0
+STU_0250,MECH,3,5.91,74.85,63.97,1,1,0,0,60.08,7.49,1,0,JavaScript|Go|C++,Full-Stack|Cybersecurity,Data Analyst,66.41
+STU_0251,ISE,4,6.79,82.09,86.71,2,5,0,2,63.76,3.97,0,0,C++|Python,DSA|DBMS|Data Science,Cloud/DevOps Engineer,100.0
+STU_0252,MECH,5,7.58,79.61,91.65,1,1,0,1,57.34,5.77,1,0,SQL|JavaScript,DSA|Data Science|DBMS,QA Specialist,99.01
+STU_0253,CIVIL,6,9.1,73.88,70.83,0,1,3,0,87.23,8.34,1,0,Java|C++,,Full-Stack Developer,100.0
+STU_0254,CSE,5,6.11,98.39,80.72,0,0,1,0,72.2,7.1,1,0,Python|JavaScript,,Cloud/DevOps Engineer,95.59
+STU_0255,ECE,8,6.93,96.28,71.47,1,5,1,2,85.6,1.0,0,0,Python,DSA|Azure,Cloud/DevOps Engineer,100.0
+STU_0256,MECH,6,8.06,91.09,72.34,0,4,0,0,68.95,7.51,2,0,SQL,Full-Stack|AWS,Data Analyst,100.0
+STU_0257,CSE,3,7.68,74.63,84.97,0,0,2,0,66.22,9.38,0,1,Python|C++|JavaScript,Cybersecurity,QA Specialist,100.0
+STU_0258,CSE,6,6.79,88.84,77.65,0,2,1,0,50.95,3.51,0,0,JavaScript,,Cloud/DevOps Engineer,76.02
+STU_0259,ISE,6,7.05,87.12,93.66,0,3,0,0,65.18,8.78,1,0,Python|Java|JavaScript,Azure|DBMS,Full-Stack Developer,100.0
+STU_0260,CSE,3,5.69,85.54,73.66,1,2,0,0,65.2,2.34,0,1,JavaScript|SQL,,Cloud/DevOps Engineer,71.89
+STU_0261,ISE,5,6.94,92.0,86.99,0,1,0,1,44.49,7.91,1,0,Java|Python|C++,Cybersecurity|DSA,Data Analyst,95.08
+STU_0262,CSE,8,6.91,87.08,78.88,1,5,1,1,56.91,6.49,0,0,Go|Python,Azure,Full-Stack Developer,100.0
+STU_0263,CIVIL,5,7.46,87.92,85.16,1,1,1,0,60.15,2.98,2,0,JavaScript|C++,DSA|DBMS,QA Specialist,98.79
+STU_0264,ECE,5,6.59,87.1,73.98,0,2,3,0,71.2,7.17,1,2,Python|C++,,Full-Stack Developer,100.0
+STU_0265,ISE,4,7.72,84.73,77.55,0,4,2,1,71.92,8.23,0,0,JavaScript,,Full-Stack Developer,100.0
+STU_0266,MECH,3,8.31,67.73,76.96,1,3,0,0,56.28,7.05,1,0,JavaScript,,Full-Stack Developer,94.0
+STU_0267,CSE,4,7.37,82.67,70.48,1,3,0,1,72.03,7.38,2,0,Java|Python,,QA Specialist,99.66
+STU_0268,ECE,7,7.59,77.55,83.96,1,2,0,1,62.27,5.88,2,2,SQL|JavaScript|C++,,Cloud/DevOps Engineer,85.1
+STU_0269,MECH,8,7.26,71.76,83.85,0,2,0,0,21.96,3.71,1,0,JavaScript,Azure|Full-Stack|AWS,QA Specialist,85.57
+STU_0270,CIVIL,6,7.2,95.45,83.34,1,1,0,1,57.73,7.54,2,1,Go|JavaScript|C++,,Data Analyst,91.23
+STU_0271,ISE,7,6.41,95.83,91.83,0,6,0,0,81.18,9.12,1,1,Go,,Full-Stack Developer,100.0
+STU_0272,ECE,6,7.55,92.87,91.04,0,2,1,0,39.77,8.19,1,0,Java|JavaScript|Go,,Data Analyst,100.0
+STU_0273,MECH,6,7.09,84.04,74.63,2,3,0,0,66.69,3.52,0,0,C++|JavaScript|Go,DSA|AWS,Full-Stack Developer,92.35
+STU_0274,MECH,5,9.5,92.81,81.36,2,2,1,2,88.78,4.23,1,1,JavaScript,DSA,Cloud/DevOps Engineer,100.0
+STU_0275,CSE,3,8.93,82.1,72.39,4,2,0,1,53.59,5.23,0,0,Python|Java|JavaScript,Full-Stack|Cybersecurity,Data Analyst,85.62
+STU_0276,CIVIL,5,7.62,83.62,78.21,0,1,0,0,65.03,4.11,1,0,Python|Go,Cybersecurity|DSA,QA Specialist,93.23
+STU_0277,ISE,8,6.36,73.25,72.6,1,1,0,0,45.44,6.57,1,0,C++|SQL|Java,Full-Stack|Data Science,Data Analyst,77.67
+STU_0278,ISE,6,5.98,85.18,92.58,0,6,0,1,89.41,7.09,0,1,Java|JavaScript|SQL,Full-Stack|DSA|Data Science,Data Analyst,100.0
+STU_0279,CSE,7,8.51,82.48,81.27,1,1,0,0,63.75,4.35,2,0,Go|Python,,QA Specialist,88.82
+STU_0280,CSE,3,7.49,71.58,76.04,1,2,0,1,65.7,7.67,1,1,JavaScript|Python,,Cloud/DevOps Engineer,100.0
+STU_0281,ISE,4,7.73,81.59,88.74,0,0,2,1,85.31,7.4,3,0,C++|Go,,Full-Stack Developer,100.0
+STU_0282,CSE,4,5.28,81.36,58.46,2,1,0,0,74.92,5.68,2,0,Python,DSA|AWS,Data Analyst,73.36
+STU_0283,MECH,5,8.22,96.38,59.87,0,2,0,1,51.87,6.24,1,0,Python|Java,,Data Analyst,100.0
+STU_0284,ECE,8,7.7,89.15,85.16,0,4,2,0,55.29,3.58,4,0,SQL|C++|Java,Cybersecurity,Cloud/DevOps Engineer,100.0
+STU_0285,ISE,5,5.98,82.09,78.54,1,1,0,1,72.42,6.0,1,0,Java|C++|JavaScript,,Cloud/DevOps Engineer,82.26
+STU_0286,ECE,6,6.68,83.99,80.25,1,1,0,2,55.64,6.51,1,0,JavaScript,,Cloud/DevOps Engineer,81.67
+STU_0287,MECH,6,7.49,82.35,66.06,0,5,2,0,33.24,6.75,0,1,JavaScript,DBMS|AWS|Azure,QA Specialist,100.0
+STU_0288,CSE,5,7.26,80.38,77.79,3,0,1,0,64.2,7.07,3,1,JavaScript|Java,,Cloud/DevOps Engineer,74.3
+STU_0289,ISE,8,6.88,73.34,96.03,1,2,2,0,42.8,6.87,1,0,Java|SQL,,Data Analyst,90.94
+STU_0290,CIVIL,4,7.09,80.79,85.42,0,0,0,1,89.24,6.1,2,2,Go|Java,Data Science|Cybersecurity,Full-Stack Developer,100.0
+STU_0291,CSE,3,6.92,76.03,79.53,0,2,1,0,67.65,6.93,0,0,Python,Full-Stack|DBMS,Cloud/DevOps Engineer,100.0
+STU_0292,CIVIL,7,7.37,72.0,74.05,1,0,1,0,51.42,8.0,0,0,Java|C++|Python,Data Science|DBMS|DSA,Data Analyst,92.27
+STU_0293,CIVIL,6,8.82,86.09,74.45,2,3,1,0,54.52,6.36,0,0,SQL|Python|Java,DBMS|Full-Stack,Data Analyst,100.0
+STU_0294,ISE,4,4.38,85.13,58.84,0,4,0,0,36.66,6.98,1,0,C++,AWS|Full-Stack,QA Specialist,88.03
+STU_0295,ISE,8,6.94,67.71,80.32,0,0,0,0,48.51,6.22,0,0,Python,Azure|AWS,QA Specialist,80.5
+STU_0296,ISE,3,7.39,81.02,85.61,0,0,0,0,80.24,5.53,0,1,JavaScript|Java,Cybersecurity|AWS,Data Analyst,99.29
+STU_0297,ECE,4,7.53,89.97,63.82,0,4,0,0,98.48,7.28,0,0,SQL,Data Science|DSA|AWS,Cloud/DevOps Engineer,100.0
+STU_0298,ISE,3,6.79,90.47,72.05,1,3,1,0,75.9,5.67,1,0,Java,Data Science,QA Specialist,95.78
+STU_0299,MECH,4,5.27,90.21,67.58,1,4,0,1,63.62,7.08,1,1,Go,,Full-Stack Developer,87.72
+STU_0300,ISE,7,7.56,82.31,69.31,0,3,0,0,58.52,6.54,0,0,Java|JavaScript,DSA,Data Analyst,100.0
+STU_0301,CIVIL,7,9.1,75.24,78.48,0,3,0,0,50.65,6.04,0,0,C++,,Cloud/DevOps Engineer,96.84
+STU_0302,CIVIL,6,5.51,73.33,59.24,1,7,2,0,95.9,6.01,1,0,SQL,Data Science|Cybersecurity,Data Analyst,100.0
+STU_0303,ECE,8,8.15,84.76,83.53,0,4,3,1,62.17,5.74,1,1,Java|C++|Go,DSA,QA Specialist,100.0
+STU_0304,ECE,3,6.84,85.03,84.78,2,2,0,2,96.73,4.03,1,1,Python|C++,Cybersecurity,Data Analyst,85.16
+STU_0305,CSE,6,7.13,92.3,75.74,1,2,0,0,85.9,7.07,1,0,Java|Python,,Full-Stack Developer,82.08
+STU_0306,CSE,3,6.04,90.8,55.67,0,5,2,0,38.89,6.85,0,0,Go|C++|Python,DBMS|Full-Stack,Data Analyst,100.0
+STU_0307,ECE,8,6.83,80.94,69.03,1,1,0,0,55.01,7.77,0,0,JavaScript|SQL|Go,DBMS|AWS|DSA,Data Analyst,90.95
+STU_0308,ECE,6,8.63,72.05,89.1,0,5,2,0,54.96,5.7,1,0,C++|Java|Python,DSA|AWS|DBMS,QA Specialist,100.0
+STU_0309,ISE,7,7.84,79.45,53.0,1,7,1,0,63.8,9.34,0,0,C++|JavaScript|Go,DBMS,Full-Stack Developer,100.0
+STU_0310,CSE,6,9.11,83.74,74.87,3,2,0,0,64.1,5.93,1,1,Java|SQL|C++,,Full-Stack Developer,94.02
+STU_0311,CIVIL,5,8.5,80.38,67.38,2,2,1,0,100.0,5.19,2,1,Go|SQL|C++,,Full-Stack Developer,95.55
+STU_0312,ECE,7,7.68,77.38,85.24,0,3,1,1,48.84,5.01,0,0,JavaScript|Python,,Cloud/DevOps Engineer,98.46
+STU_0313,ECE,8,9.12,84.02,71.92,1,2,0,1,68.43,3.9,2,2,C++|Python,DSA|Data Science|Azure,QA Specialist,100.0
+STU_0314,ECE,4,7.68,77.97,81.64,0,0,0,0,74.25,8.8,3,1,SQL|C++,DSA,Cloud/DevOps Engineer,100.0
+STU_0315,ECE,8,8.11,76.98,83.09,1,0,0,2,64.98,8.56,0,0,Python|SQL|Java,DBMS|Full-Stack,QA Specialist,100.0
+STU_0316,MECH,7,6.87,84.49,94.53,1,1,0,0,66.65,7.4,2,0,Java|JavaScript,Azure|DSA|Cybersecurity,QA Specialist,98.58
+STU_0317,MECH,3,7.27,78.78,76.17,0,3,0,0,49.33,5.16,0,0,Go|JavaScript|C++,,Cloud/DevOps Engineer,89.64
+STU_0318,ECE,8,6.43,83.95,81.38,0,1,0,1,66.6,9.22,1,0,Python,Cybersecurity|DSA|AWS,Cloud/DevOps Engineer,100.0
+STU_0319,CSE,4,8.29,84.19,64.63,0,4,0,0,72.67,5.97,0,0,SQL|Java|C++,,Full-Stack Developer,100.0
+STU_0320,CIVIL,6,5.9,72.88,88.71,0,3,0,0,69.91,6.1,1,2,Go|Python|C++,Full-Stack,QA Specialist,92.58
+STU_0321,ISE,3,8.06,78.15,71.16,0,4,1,0,73.55,8.66,0,1,C++|JavaScript|Java,,QA Specialist,100.0
+STU_0322,CSE,4,6.99,93.5,72.95,0,4,2,0,86.19,7.49,0,0,JavaScript,,QA Specialist,100.0
+STU_0323,CSE,6,8.49,72.7,77.8,0,4,0,1,79.05,9.8,1,0,Python,,QA Specialist,100.0
+STU_0324,MECH,7,8.03,65.07,63.93,0,6,0,0,66.07,6.87,3,0,Java|C++,Azure,Data Analyst,100.0
+STU_0325,ISE,7,9.2,67.11,80.06,0,1,1,0,47.42,5.9,1,0,Go|SQL,Full-Stack|Azure|DBMS,Full-Stack Developer,100.0
+STU_0326,CSE,5,8.0,82.23,86.71,0,2,0,1,56.0,5.58,3,0,Python|C++|Java,DBMS|AWS|Cybersecurity,QA Specialist,100.0
+STU_0327,CIVIL,7,5.47,82.25,80.64,0,3,0,0,61.71,3.73,0,0,Python,Cybersecurity|DBMS|Full-Stack,Data Analyst,86.12
+STU_0328,ISE,3,7.13,81.06,63.7,0,6,1,1,68.79,6.08,1,0,Go,,QA Specialist,100.0
+STU_0329,CIVIL,8,5.91,91.71,76.89,0,4,1,1,57.83,8.22,1,0,Python|Go|SQL,Data Science|DBMS|Cybersecurity,Cloud/DevOps Engineer,100.0
+STU_0330,CIVIL,4,6.63,60.62,84.68,0,1,0,0,50.96,7.4,2,0,Java,,Data Analyst,86.82
+STU_0331,CSE,6,8.86,85.17,61.1,3,0,1,2,47.18,6.53,0,0,C++|Java|Python,,Data Analyst,74.76
+STU_0332,MECH,8,7.9,94.49,68.33,1,6,1,1,40.23,5.01,1,1,C++|Java|JavaScript,,Cloud/DevOps Engineer,100.0
+STU_0333,MECH,4,6.43,72.98,85.89,3,3,0,0,61.48,6.84,0,1,Python|JavaScript|Go,,Data Analyst,83.95
+STU_0334,CSE,5,6.08,78.96,80.43,0,1,1,0,42.96,8.02,1,0,C++|Java,,Data Analyst,93.91
+STU_0335,ISE,7,7.24,75.98,81.71,2,1,0,0,49.99,7.15,1,0,SQL|Java,Data Science,Full-Stack Developer,77.24
+STU_0336,ECE,8,5.86,74.85,94.74,1,4,2,1,59.09,6.75,2,0,SQL|JavaScript,Cybersecurity|Data Science,Cloud/DevOps Engineer,100.0
+STU_0337,CSE,4,6.46,79.39,82.22,2,2,0,0,44.96,5.3,1,0,Go,,Full-Stack Developer,59.64
+STU_0338,MECH,6,7.54,93.42,83.92,1,3,0,0,70.7,7.8,3,0,JavaScript,Azure|Full-Stack,Full-Stack Developer,100.0
+STU_0339,ISE,4,8.47,96.7,100.0,2,6,1,0,76.1,1.8,0,2,C++|Python|Go,Cybersecurity,Full-Stack Developer,97.28
+STU_0340,CIVIL,6,7.87,79.31,76.08,1,1,0,0,56.76,7.07,3,0,C++|Go,Data Science|Cybersecurity|AWS,Cloud/DevOps Engineer,100.0
+STU_0341,CIVIL,5,4.68,97.24,70.82,0,4,1,0,58.44,10.0,1,0,JavaScript|Go,,Full-Stack Developer,92.94
+STU_0342,MECH,3,7.53,82.28,81.85,0,3,0,2,73.06,4.24,2,1,JavaScript|Java,,Data Analyst,100.0
+STU_0343,CSE,8,7.28,96.03,81.95,0,1,0,2,54.29,6.14,0,0,Java,Full-Stack|DSA,Full-Stack Developer,99.65
+STU_0344,CSE,6,7.66,81.25,73.26,0,2,0,0,53.26,6.49,0,1,Java|JavaScript,DBMS,Cloud/DevOps Engineer,95.73
+STU_0345,CSE,5,8.98,83.05,68.71,0,3,2,0,82.95,5.81,0,0,Go|JavaScript|C++,,Full-Stack Developer,100.0
+STU_0346,ECE,3,4.93,84.92,98.79,0,2,0,1,78.26,8.05,2,0,JavaScript,DSA|Cybersecurity|DBMS,Full-Stack Developer,100.0
+STU_0347,MECH,3,6.55,100.0,80.94,0,1,1,0,74.02,7.21,2,0,JavaScript|C++|Java,,Data Analyst,100.0
+STU_0348,CSE,5,7.85,88.81,71.41,1,1,0,1,78.88,6.73,1,0,Python|JavaScript,Full-Stack|AWS,Cloud/DevOps Engineer,100.0
+STU_0349,MECH,6,5.46,76.34,86.24,1,1,2,1,35.34,7.7,0,0,Java|JavaScript|Go,Data Science|AWS,Full-Stack Developer,84.53
+STU_0350,CSE,4,8.82,89.75,77.02,0,1,1,1,85.31,6.53,1,0,Java|C++,DBMS|Cybersecurity,Data Analyst,100.0
+STU_0351,ISE,7,7.61,79.11,75.72,1,4,1,0,70.88,10.0,0,1,C++,,QA Specialist,100.0
+STU_0352,ECE,5,8.13,78.08,83.06,0,2,1,1,80.16,6.73,0,1,Python|SQL,,Cloud/DevOps Engineer,100.0
+STU_0353,CIVIL,3,6.57,89.27,66.37,1,2,1,2,70.81,6.79,1,1,Java|JavaScript,,QA Specialist,100.0
+STU_0354,MECH,6,8.1,82.25,81.17,0,2,0,0,65.73,3.93,2,1,SQL|C++,Data Science,Data Analyst,98.58
+STU_0355,ECE,4,8.38,84.23,95.22,1,4,1,1,60.87,5.68,3,0,Python,,QA Specialist,100.0
+STU_0356,CSE,3,7.46,82.11,82.2,1,0,0,1,70.51,8.22,1,0,Go,Full-Stack|DBMS,Full-Stack Developer,93.54
+STU_0357,ISE,3,7.46,84.69,74.61,4,2,1,1,60.32,4.5,1,0,Python|JavaScript|C++,DSA|Data Science,Cloud/DevOps Engineer,82.05
+STU_0358,MECH,4,7.5,85.4,73.44,1,2,0,1,78.02,3.26,1,3,SQL|C++,AWS,Data Analyst,93.25
+STU_0359,CSE,6,6.25,66.5,74.31,2,3,0,0,41.2,6.55,0,1,SQL|Go|C++,,Full-Stack Developer,68.93
+STU_0360,MECH,8,7.04,87.33,75.71,1,0,0,2,56.88,8.56,0,0,Go,,QA Specialist,84.1
+STU_0361,MECH,4,7.03,74.14,74.6,1,1,0,1,95.67,6.56,2,0,Java,AWS|Azure,Cloud/DevOps Engineer,100.0
+STU_0362,MECH,3,7.62,70.46,86.25,0,3,0,0,55.61,6.0,3,0,Java,AWS,Full-Stack Developer,100.0
+STU_0363,ISE,4,8.3,81.53,62.4,2,0,0,0,61.42,3.71,1,0,Java,Cybersecurity|Data Science|AWS,Full-Stack Developer,78.8
+STU_0364,ISE,4,6.04,82.67,85.76,1,0,0,0,51.76,7.18,2,0,JavaScript|SQL|Java,AWS|Azure,Cloud/DevOps Engineer,83.33
+STU_0365,CSE,4,7.06,76.45,74.58,1,3,0,0,70.04,7.49,1,1,SQL|C++|Python,,Cloud/DevOps Engineer,76.72
+STU_0366,ISE,4,8.83,88.65,81.39,2,1,1,0,53.96,3.83,0,0,Go|Java,,Full-Stack Developer,76.75
+STU_0367,ECE,8,6.38,71.26,67.86,0,1,4,0,62.22,8.2,0,0,Java|SQL|JavaScript,DBMS|Full-Stack|DSA,QA Specialist,100.0
+STU_0368,CSE,5,6.3,78.74,89.96,1,8,0,2,77.73,7.65,0,2,JavaScript,DSA,Cloud/DevOps Engineer,100.0
+STU_0369,ECE,6,7.42,77.32,89.21,0,6,1,0,54.52,8.2,0,0,Python|Go|C++,,Data Analyst,100.0
+STU_0370,ISE,7,8.13,81.63,86.64,0,4,1,1,76.83,7.38,1,0,Go|Java|SQL,,Full-Stack Developer,100.0
+STU_0371,ECE,3,7.21,84.23,64.37,0,6,0,1,77.33,7.48,1,0,SQL,,Data Analyst,100.0
+STU_0372,ISE,4,8.66,73.94,85.46,2,4,0,0,80.82,7.28,0,0,Python,,Data Analyst,96.76
+STU_0373,CIVIL,5,8.14,87.79,81.64,1,1,1,0,67.11,7.8,0,0,C++,Azure|Data Science,Full-Stack Developer,100.0
+STU_0374,ISE,5,8.13,82.5,63.55,0,2,0,2,100.0,3.77,2,1,C++,,Data Analyst,100.0
+STU_0375,CIVIL,3,7.81,66.86,77.78,0,3,0,2,80.82,4.25,0,0,C++,,Full-Stack Developer,99.19
+STU_0376,CSE,6,9.76,66.33,81.28,2,1,0,1,69.87,5.4,2,1,Python|C++|Java,Cybersecurity|DSA|AWS,Full-Stack Developer,100.0
+STU_0377,CSE,4,6.97,81.9,83.0,0,3,2,0,51.86,6.31,0,0,JavaScript|Python,Azure|DBMS|Full-Stack,Full-Stack Developer,100.0
+STU_0378,CSE,4,5.0,80.23,79.6,1,2,0,0,63.54,7.08,0,0,C++,Cybersecurity|Azure,Data Analyst,73.7
+STU_0379,ECE,6,8.96,81.17,80.62,0,3,0,2,86.39,6.99,2,0,SQL|JavaScript,,Data Analyst,100.0
+STU_0380,CIVIL,8,6.7,81.78,91.26,1,1,0,0,90.64,8.18,0,0,JavaScript,,Data Analyst,89.59
+STU_0381,CSE,8,7.32,83.8,89.03,1,0,2,0,87.17,8.22,2,0,C++|JavaScript|Python,,Cloud/DevOps Engineer,98.46
+STU_0382,MECH,8,8.64,89.58,52.2,0,4,1,2,76.78,5.19,1,0,Java|JavaScript,DSA|Full-Stack|Cybersecurity,Cloud/DevOps Engineer,100.0
+STU_0383,MECH,5,5.44,73.11,75.14,1,7,1,0,46.17,6.86,0,0,Python|SQL|C++,Azure|DBMS|Full-Stack,Full-Stack Developer,100.0
+STU_0384,ISE,3,5.82,72.62,76.52,1,2,1,0,72.31,5.23,1,0,Python,,QA Specialist,88.45
+STU_0385,ISE,4,5.44,73.25,62.23,3,6,1,0,46.38,6.22,2,1,C++|Python|Java,,Cloud/DevOps Engineer,84.41
+STU_0386,CIVIL,5,6.33,84.31,78.85,0,2,0,0,42.69,6.98,1,0,SQL|C++,Azure,Data Analyst,91.58
+STU_0387,MECH,4,7.68,91.96,89.24,0,1,0,0,68.59,1.39,0,0,C++|Go|JavaScript,,Full-Stack Developer,88.35
+STU_0388,ISE,4,7.78,78.55,68.22,1,2,1,0,72.85,10.0,1,0,JavaScript|SQL,AWS|Azure|Data Science,QA Specialist,100.0
+STU_0389,CIVIL,3,7.5,61.99,81.03,0,3,1,0,78.55,7.35,1,0,C++|Java,Data Science|Cybersecurity|Azure,Cloud/DevOps Engineer,100.0
+STU_0390,ECE,4,5.65,68.37,69.76,0,0,0,1,72.46,5.61,0,0,JavaScript|Java,AWS|Full-Stack|DBMS,Data Analyst,80.47
+STU_0391,CSE,6,4.66,75.34,71.95,0,1,1,0,72.97,9.39,1,0,C++|Python,AWS,Full-Stack Developer,100.0
+STU_0392,CIVIL,5,7.26,77.54,91.3,0,1,0,2,50.23,5.98,1,0,Python|Java|Go,,Full-Stack Developer,100.0
+STU_0393,CIVIL,3,6.68,78.73,73.12,0,2,0,0,63.43,6.7,2,1,C++,AWS|DBMS|Azure,Data Analyst,100.0
+STU_0394,ECE,6,7.71,82.31,82.16,0,3,0,1,42.39,5.77,0,1,C++|Python,DBMS,Full-Stack Developer,95.66
+STU_0395,MECH,8,7.97,79.51,61.16,1,1,0,1,34.95,8.98,2,0,SQL,Cybersecurity|AWS|DBMS,Full-Stack Developer,100.0
+STU_0396,ISE,5,7.35,90.39,94.76,0,2,2,0,76.11,6.34,2,1,C++|Java,,Data Analyst,100.0
+STU_0397,CIVIL,4,8.04,76.59,83.42,1,4,0,0,53.7,6.72,1,0,Python|Java|SQL,Full-Stack,Full-Stack Developer,94.12
+STU_0398,ISE,4,7.45,75.1,76.36,0,1,2,1,78.09,8.31,1,1,Go,DSA,Data Analyst,100.0
+STU_0399,ISE,5,7.78,85.83,83.18,2,3,1,0,81.63,7.38,1,0,Java,,QA Specialist,100.0
+STU_0400,ECE,4,6.42,69.71,65.31,2,4,0,0,55.71,6.42,2,0,Java|C++,,QA Specialist,82.79
+STU_0401,ISE,8,7.0,85.12,88.64,0,2,0,1,73.85,8.17,2,0,JavaScript,,Full-Stack Developer,100.0
+STU_0402,MECH,8,7.42,82.82,75.08,2,1,0,1,55.08,10.0,0,0,Python,DSA|AWS,Cloud/DevOps Engineer,93.77
+STU_0403,MECH,5,8.1,80.82,76.16,0,4,1,0,37.31,6.98,0,0,Python,Full-Stack|Cybersecurity|Azure,QA Specialist,100.0
+STU_0404,ECE,8,6.77,94.71,73.58,1,5,0,2,66.85,6.68,0,1,Go|SQL,Data Science|Full-Stack,Cloud/DevOps Engineer,100.0
+STU_0405,MECH,8,7.77,77.02,72.77,1,2,0,0,57.94,6.76,0,0,Go|C++|SQL,,Data Analyst,81.22
+STU_0406,ECE,3,6.91,98.48,84.25,2,3,0,0,58.4,8.47,1,0,SQL|JavaScript,DBMS|DSA|Full-Stack,Data Analyst,100.0
+STU_0407,CIVIL,5,7.07,80.2,80.3,2,3,0,0,94.63,5.6,1,1,Go|SQL|Java,,Full-Stack Developer,74.79
+STU_0408,ISE,6,8.11,71.78,83.87,1,1,0,0,42.11,6.08,0,0,Python|Java,,Data Analyst,76.67
+STU_0409,MECH,5,5.01,82.56,77.92,1,3,1,2,70.74,4.19,3,0,Go,,QA Specialist,85.64
+STU_0410,ECE,5,5.77,73.39,82.62,2,3,1,0,50.08,4.72,0,3,Python,Data Science|DSA|AWS,Cloud/DevOps Engineer,89.37
+STU_0411,CIVIL,5,5.57,75.99,74.23,0,1,2,0,78.62,5.72,1,0,JavaScript|Go|Java,Full-Stack,Data Analyst,96.71
+STU_0412,ISE,7,4.63,85.18,98.07,0,1,0,0,69.48,6.42,0,0,SQL,,Full-Stack Developer,64.75
+STU_0413,CSE,4,6.45,86.44,63.89,1,2,1,0,70.69,9.15,3,0,C++|Python|SQL,Cybersecurity|DSA,QA Specialist,100.0
+STU_0414,CIVIL,6,8.02,77.02,89.35,0,1,1,2,50.83,7.3,1,1,SQL|C++,Azure|Cybersecurity|AWS,Full-Stack Developer,100.0
+STU_0415,CIVIL,4,6.89,89.9,90.31,2,6,0,1,53.52,5.13,2,0,Go|JavaScript|C++,AWS|DSA,Cloud/DevOps Engineer,98.75
+STU_0416,MECH,8,7.42,91.26,70.33,0,4,1,1,78.91,5.41,0,2,Python|C++|Java,AWS|Cybersecurity|Data Science,Data Analyst,100.0
+STU_0417,ECE,3,8.4,93.49,98.06,2,5,0,0,91.56,8.56,5,1,Python|JavaScript,Azure,Data Analyst,100.0
+STU_0418,ECE,3,8.66,86.24,86.96,0,1,2,1,72.2,8.19,0,0,JavaScript|Go|Java,,Full-Stack Developer,100.0
+STU_0419,MECH,3,7.12,92.91,86.74,0,1,0,0,51.54,6.54,1,0,SQL|JavaScript|Python,Cybersecurity,Data Analyst,87.02
+STU_0420,MECH,5,8.69,66.95,78.25,0,4,0,0,70.08,5.84,0,2,Python|Java,DSA,Cloud/DevOps Engineer,100.0
+STU_0421,ISE,6,7.3,79.46,76.04,1,5,0,1,100.0,8.19,1,0,Go|Java|SQL,Cybersecurity,Data Analyst,100.0
+STU_0422,CSE,8,6.28,75.06,76.12,0,3,1,0,66.54,5.01,2,0,Go|Python,Data Science|DSA|Full-Stack,Full-Stack Developer,100.0
+STU_0423,CSE,5,6.55,82.95,81.51,3,3,0,0,86.93,7.09,1,0,C++|SQL|Go,Azure,Data Analyst,83.96
+STU_0424,ISE,4,5.57,77.43,90.61,1,2,1,1,53.9,9.91,0,1,C++,,Full-Stack Developer,88.56
+STU_0425,MECH,5,6.22,80.67,79.63,0,3,1,0,64.37,6.81,0,1,Python|C++|JavaScript,Full-Stack|DBMS|Data Science,Data Analyst,100.0
+STU_0426,ECE,3,6.81,97.06,69.8,1,3,0,1,74.29,5.34,0,0,Python|SQL,,QA Specialist,93.77
+STU_0427,MECH,5,8.08,80.64,85.42,3,2,1,1,70.96,7.12,0,0,Go,Full-Stack|Cybersecurity|AWS,QA Specialist,100.0
+STU_0428,ECE,7,9.09,85.31,86.29,0,2,0,1,53.5,5.79,0,1,Java,,QA Specialist,100.0
+STU_0429,ISE,3,5.68,80.14,83.89,0,2,0,0,52.86,4.41,0,0,Python,Cybersecurity,Full-Stack Developer,78.35
+STU_0430,MECH,7,7.63,82.61,84.71,0,0,1,0,79.82,7.55,0,0,C++|JavaScript,,Data Analyst,100.0
+STU_0431,MECH,4,6.06,82.05,75.56,0,1,0,3,82.87,8.18,1,2,Java|C++,,Full-Stack Developer,92.96
+STU_0432,CIVIL,7,7.72,85.59,69.64,0,3,2,0,87.68,6.03,0,0,Python|SQL,Azure|Data Science|Full-Stack,Data Analyst,100.0
+STU_0433,CIVIL,7,7.06,91.32,70.19,1,1,1,1,92.06,5.93,1,1,JavaScript,,Cloud/DevOps Engineer,97.35
+STU_0434,ISE,7,5.19,95.18,63.28,1,4,1,0,67.02,5.06,1,1,Python|Go,DSA|Cybersecurity,QA Specialist,100.0
+STU_0435,MECH,7,8.22,84.48,80.13,0,0,0,1,60.33,6.28,1,0,JavaScript|C++,DBMS,Data Analyst,94.32
+STU_0436,ISE,7,6.53,86.72,77.25,0,3,0,0,85.26,5.66,2,2,Go|JavaScript|Python,,Full-Stack Developer,100.0
+STU_0437,CIVIL,4,6.61,72.79,74.04,0,2,0,1,75.7,4.98,0,0,JavaScript,Cybersecurity,Data Analyst,94.18
+STU_0438,MECH,3,6.02,81.3,51.4,0,2,1,0,50.26,9.34,0,3,SQL|JavaScript,Cybersecurity|Full-Stack|DBMS,Data Analyst,100.0
+STU_0439,CIVIL,5,6.48,89.52,66.77,1,1,0,0,49.5,7.2,1,0,SQL|Python|JavaScript,Cybersecurity|DBMS,Cloud/DevOps Engineer,84.29
+STU_0440,ISE,6,7.67,88.93,88.09,0,1,1,1,72.38,7.36,0,2,SQL|JavaScript,Full-Stack|Data Science,Full-Stack Developer,100.0
+STU_0441,CSE,6,6.99,83.69,72.02,1,2,1,1,62.34,7.83,1,0,Python,DBMS|Azure|Cybersecurity,Cloud/DevOps Engineer,100.0
+STU_0442,CSE,7,7.56,89.09,81.25,1,2,0,0,64.6,7.66,0,0,JavaScript|Python,Azure|Data Science,Data Analyst,89.59
+STU_0443,ECE,4,7.6,85.93,65.48,1,1,0,0,81.09,5.88,1,0,JavaScript,,Cloud/DevOps Engineer,72.61
+STU_0444,CIVIL,8,8.65,91.6,90.95,0,1,2,0,76.39,6.91,3,1,SQL|Python|Go,Azure|Data Science|DBMS,QA Specialist,100.0
+STU_0445,MECH,5,6.82,84.31,76.7,2,1,1,0,84.95,6.1,0,1,Java|C++,Cybersecurity|DSA|Data Science,Full-Stack Developer,100.0
+STU_0446,CIVIL,4,5.58,79.15,80.61,1,2,1,0,36.03,7.16,2,1,JavaScript|C++|Go,DSA|AWS|Full-Stack,QA Specialist,100.0
+STU_0447,ECE,7,8.37,84.69,98.93,0,1,0,1,68.8,7.01,0,1,Python|C++|Java,,Full-Stack Developer,97.57
+STU_0448,CIVIL,3,6.84,58.56,91.65,0,5,0,1,75.42,5.93,0,0,Go,,QA Specialist,100.0
+STU_0449,CIVIL,5,8.43,85.06,75.24,1,0,0,0,42.1,4.51,0,0,Java|SQL,,Data Analyst,71.12
+STU_0450,ISE,7,7.62,52.81,72.66,1,1,1,0,55.18,6.72,0,0,C++|Java,AWS|Data Science,Cloud/DevOps Engineer,100.0
+STU_0451,CIVIL,7,7.06,68.21,75.07,2,0,2,0,52.39,6.19,0,2,Go|Java|C++,,QA Specialist,93.72
+STU_0452,CSE,4,7.58,85.61,82.59,0,1,1,0,65.33,3.66,1,1,C++,DSA|AWS|DBMS,Cloud/DevOps Engineer,100.0
+STU_0453,ECE,3,9.35,85.82,77.05,0,1,0,0,89.42,7.26,2,1,SQL|Python,DBMS|Full-Stack,Data Analyst,100.0
+STU_0454,ECE,3,9.48,72.7,74.44,1,3,0,0,95.34,7.95,1,0,C++,DSA|Full-Stack,QA Specialist,100.0
+STU_0455,ISE,3,7.28,76.3,91.2,1,2,0,0,52.79,10.0,0,0,Python|Java,Full-Stack|DBMS,Data Analyst,99.98
+STU_0456,CIVIL,7,7.38,92.96,76.97,1,1,1,0,72.9,5.91,2,0,Go|Java,,Cloud/DevOps Engineer,90.58
+STU_0457,MECH,7,8.38,78.13,98.7,2,2,0,1,73.38,5.69,2,0,Python,Cybersecurity|DSA,Cloud/DevOps Engineer,100.0
+STU_0458,CSE,6,6.27,99.94,78.82,1,1,0,0,70.81,4.84,2,1,Java|Python,,Data Analyst,70.11
+STU_0459,CSE,6,7.57,81.98,94.07,1,2,0,0,70.98,6.81,3,0,Python,,Full-Stack Developer,93.33
+STU_0460,CSE,4,7.17,85.26,81.22,2,1,1,1,69.56,6.8,1,0,Go,Cybersecurity|DSA,Data Analyst,90.69
+STU_0461,ISE,4,7.55,94.93,86.67,0,2,1,0,90.31,5.28,2,1,Python|Java|C++,Data Science|Cybersecurity,QA Specialist,100.0
+STU_0462,CSE,3,6.28,83.05,71.48,0,6,1,1,81.54,6.24,1,1,Python|Go|C++,,Cloud/DevOps Engineer,100.0
+STU_0463,ISE,7,5.45,73.98,70.32,1,4,1,0,49.1,3.53,0,0,JavaScript,DSA|AWS,Cloud/DevOps Engineer,93.87
+STU_0464,MECH,3,4.92,81.12,82.14,0,1,0,0,76.94,7.89,0,0,Java,DSA,Data Analyst,74.11
+STU_0465,CIVIL,3,5.97,81.72,86.9,0,4,1,2,78.39,5.34,0,0,SQL,,Cloud/DevOps Engineer,100.0
+STU_0466,MECH,7,6.7,71.08,78.36,0,3,0,0,69.72,6.45,1,0,SQL|JavaScript,,Data Analyst,84.9
+STU_0467,ECE,6,6.88,79.95,66.42,0,1,1,0,81.97,4.36,1,1,Python|Go|SQL,Azure,Full-Stack Developer,92.1
+STU_0468,MECH,5,9.33,76.06,65.76,0,2,2,0,67.82,5.63,2,0,Java|SQL|Python,DSA|Full-Stack|AWS,Full-Stack Developer,100.0
+STU_0469,CIVIL,4,8.42,89.39,65.16,2,6,1,3,68.01,6.08,3,0,Go,DSA,Data Analyst,100.0
+STU_0470,CSE,3,6.14,82.28,62.09,2,5,2,2,66.82,6.48,0,0,Go|Python|SQL,Azure,Cloud/DevOps Engineer,100.0
+STU_0471,CIVIL,5,7.58,79.74,78.99,0,1,0,1,34.73,7.22,0,0,C++|Python|Go,Data Science,Data Analyst,90.15
+STU_0472,MECH,5,6.75,81.15,88.13,0,4,1,1,63.79,8.66,1,1,Python,Data Science|Azure|AWS,Full-Stack Developer,100.0
+STU_0473,ISE,6,6.89,83.78,77.88,0,3,1,0,54.98,7.6,1,1,C++,DSA|Data Science|Cybersecurity,Data Analyst,100.0
+STU_0474,ECE,3,7.4,86.93,57.66,2,0,0,3,47.2,7.94,1,0,Python|Java,AWS,Data Analyst,92.52
+STU_0475,ECE,4,7.88,74.0,76.28,1,3,1,0,86.51,8.67,3,0,C++,Full-Stack|Azure,Cloud/DevOps Engineer,100.0
+STU_0476,CSE,3,6.83,73.67,76.53,1,2,0,0,72.56,7.35,2,1,SQL,,Data Analyst,99.7
+STU_0477,ISE,5,8.37,90.84,96.86,0,4,1,1,64.55,6.44,2,1,Java|Go,,Data Analyst,100.0
+STU_0478,ISE,4,5.94,78.7,64.89,0,1,0,1,56.53,8.01,0,0,Python,DBMS,Full-Stack Developer,72.92
+STU_0479,CSE,4,7.21,70.67,74.48,2,1,0,0,69.44,8.11,1,1,JavaScript,Cybersecurity,Cloud/DevOps Engineer,80.09
+STU_0480,ECE,6,10.0,85.55,93.35,0,3,0,1,79.87,7.47,1,0,Java|JavaScript,,QA Specialist,100.0
+STU_0481,ECE,5,7.45,85.71,82.05,0,3,0,1,52.6,4.32,0,0,Python,,Cloud/DevOps Engineer,87.32
+STU_0482,ISE,4,8.78,69.75,83.07,1,4,0,0,64.93,5.24,1,1,JavaScript|Go|SQL,,Data Analyst,98.67
+STU_0483,CSE,7,7.3,83.84,79.03,3,2,0,0,78.02,6.09,0,1,JavaScript|Go|Python,DSA|Data Science,Data Analyst,77.61
+STU_0484,CIVIL,5,7.84,87.88,80.97,0,5,0,1,35.96,7.67,1,0,SQL|Java|Go,,Data Analyst,100.0
+STU_0485,MECH,5,7.14,85.0,85.0,1,3,0,1,64.14,6.47,0,0,Java,Full-Stack,Full-Stack Developer,97.59
+STU_0486,ECE,5,7.01,87.06,70.71,0,6,1,0,58.56,8.21,1,0,C++|Python|SQL,,Full-Stack Developer,100.0
+STU_0487,MECH,3,6.34,70.77,85.9,3,2,0,2,62.99,8.47,1,4,Java|JavaScript,,QA Specialist,81.57
+STU_0488,ISE,5,7.67,84.65,65.64,1,5,0,1,57.48,8.3,0,0,SQL|Java,DBMS,QA Specialist,100.0
+STU_0489,ISE,6,6.26,79.58,80.96,0,2,2,0,67.06,8.31,2,1,Go|Python|Java,,QA Specialist,100.0
+STU_0490,MECH,3,7.93,78.14,79.61,0,5,0,0,93.85,4.94,1,1,JavaScript|Python|Go,,Cloud/DevOps Engineer,100.0
+STU_0491,MECH,6,8.39,88.96,72.45,1,0,0,1,60.14,7.22,4,1,JavaScript|Java,Cybersecurity,QA Specialist,87.06
+STU_0492,MECH,3,7.6,93.83,77.8,1,2,3,0,69.38,5.59,1,0,Go,DBMS,Data Analyst,100.0
+STU_0493,ECE,6,6.89,96.35,72.4,0,0,0,1,94.92,4.03,2,0,JavaScript|Java|Python,DBMS|Data Science,Data Analyst,95.67
+STU_0494,CSE,3,7.7,92.52,68.35,1,3,0,2,56.75,6.07,0,0,Go|Python|Java,,Full-Stack Developer,100.0
+STU_0495,MECH,4,6.86,81.12,74.82,2,3,0,0,92.22,8.49,0,0,JavaScript|Go,,Full-Stack Developer,80.31
+STU_0496,MECH,5,8.23,84.82,68.06,1,0,0,1,65.08,7.19,0,0,SQL,DBMS,Cloud/DevOps Engineer,84.87
+STU_0497,ECE,6,5.19,88.13,80.91,3,1,1,0,91.73,9.53,0,0,SQL|Go|C++,Cybersecurity|Azure|DBMS,Full-Stack Developer,92.56
+STU_0498,ISE,7,6.83,82.97,67.65,0,2,1,2,76.25,6.77,3,0,C++|JavaScript,,QA Specialist,100.0
+STU_0499,CIVIL,5,5.01,83.05,84.41,2,3,0,0,69.61,10.0,1,0,JavaScript,,QA Specialist,81.18
+STU_0500,ISE,3,5.56,88.59,67.37,1,1,2,1,64.02,6.77,4,1,JavaScript,AWS|DSA|Cybersecurity,Data Analyst,100.0

@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+joblib
+shap
+pydantic
+python-multipart
+pytest
+httpx
+# Auth & Supabase
+supabase
+python-jose[cryptography]
+python-dotenv
